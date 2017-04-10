@@ -131,8 +131,9 @@ ew command instance.
 
                 $player1 = Player::firstOrNew([
                   "User_idUser" => $id,
-                  "number" =>
+                  "number" => $user['uni']
                 ]);
+                $player1->save();
 
                 echo "Team_has_User added: ".$addTeam1."\n";
             }
@@ -176,6 +177,12 @@ ew command instance.
                   "Game_Venue_idVenue" => $newGame->Venue_idVenue
                 ]);
                 $user2Game->save();
+
+                $player2 = Player::firstOrNew([
+                  "User_idUser" => $id,
+                  "number" => $user['uni']
+                ]);
+                $player2->save();
 
                 echo "Team_has_User added: ".$firstName." ".$lastName."!\n";
             }
