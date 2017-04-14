@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Player extends Model
 {
-  protected $table = 'User_has_Game';
+  protected $table = 'Player';
     protected $fillable = ["User_idUser", "number"];
     public $timestamps = false;
 }
