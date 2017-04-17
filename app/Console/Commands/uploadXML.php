@@ -15,6 +15,7 @@ use App\Game_has_Period;
 use App\Stat;
 use App\Player_has_Stat;
 use App\Team_has_Stat;
+use App\Team_has_Game;
 use DateTime;
 
 class uploadXML extends Command
@@ -24,7 +25,7 @@ class uploadXML extends Command
      *
      * @var string
      */
-    protected $signature = 'uploadXML {file}';
+    protected $signature = 'uploadXML {file} {qtr} {v team hc first name} {v team hc last name} {h team hc first name} {h team hc last name} {v won game} {h won game}';
 
     /**
      * The consoluse App\User;
@@ -71,6 +72,18 @@ ew command instance.
           $formattedDuration = $game['duration'];
           $time = strtotime($game['date']);
           $newformat = date('Y-m-d',$time);
+          $neutralGame = false;
+          $nightGame = false;
+          $postSeasonGame = false;
+          if ($game['neutralgame'] == "Y") {
+            $neutralGame = true;
+          }
+          if ($game['nitegame'] == "Y") {
+            $nightGame = true;
+          }
+          if ($game['postseason'] == "Y") {
+            $postSeasonGame = true;
+          }
           $newGame = Game::firstOrNew(
             [
               "gameid" => $game['gameid'],
@@ -80,7 +93,10 @@ ew command instance.
               "duration" => $formattedDuration,
               "weather" => $game['weather'],
               "attend" => $game['attend'],
-              "Venue_idVenue" => $venueId
+              "Venue_idVenue" => $venueId,
+              "neutralSite" => $neutralGame,
+              "nightGame" => $nightGame,
+              "postSeason" => $postSeasonGame
             ]
           );
           $newGameId = 0;
@@ -114,6 +130,19 @@ ew command instance.
                 $teamId = $addTeam1->id;
               }
             }
+            $teamWonGame = false;
+            if ($team['vh'] == "V") {
+              $teamWonGame = $this->argument('v won game');
+            }
+            else if ($team['vh'] == "H") {
+              $teamWonGame = $this->argument('h won game');
+            }
+            $teamGame = Team_has_Game::firstOrNew([
+              "Team_idTeam" => $teamId,
+              "Game_idGame" => $newGameId,
+              "wonGame" => $teamWonGame
+            ]);
+            $teamGame->save();
 
             // Iterate through tags in the team attribute //
             foreach($team->children() as $teamUser) {
@@ -121,7 +150,7 @@ ew command instance.
               if ($teamUser->getName() == "linescore") {
                 foreach ($teamUser->children() as $period) {
                   // Get the period by checking if points were scored //
-                  if ($period['score'] > 0) {
+                  if ($period['prd'] == $this->argument('qtr')) {
                     // Add the period //
                     $gamePeriod = Game_has_Period::firstOrNew([
                       "Game_idGame" => $newGameId,
@@ -140,7 +169,7 @@ ew command instance.
 
                     // Create stat for quarter scoring //
                     $statName1 = Stat::firstOrNew([
-                      "title" => $period['prd']." ".$period['score']
+                      "title" => $period['prd']." Period points"
                     ]);
                     $stat_Id = 0;
 
