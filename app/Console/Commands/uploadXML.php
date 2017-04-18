@@ -72,17 +72,17 @@ ew command instance.
           $formattedDuration = $game['duration'];
           $time = strtotime($game['date']);
           $newformat = date('Y-m-d',$time);
-          $neutralGame = false;
-          $nightGame = false;
-          $postSeasonGame = false;
+          $neutralGame = 0;
+          $nightGame = 0;
+          $postSeasonGame = 0;
           if ($game['neutralgame'] == "Y") {
-            $neutralGame = true;
+            $neutralGame = 1;
           }
           if ($game['nitegame'] == "Y") {
-            $nightGame = true;
+            $nightGame = 1;
           }
           if ($game['postseason'] == "Y") {
-            $postSeasonGame = true;
+            $postSeasonGame = 1;
           }
           $newGame = Game::firstOrNew(
             [
@@ -130,12 +130,26 @@ ew command instance.
                 $teamId = $addTeam1->id;
               }
             }
-            $teamWonGame = false;
+
+            $teamWonGame = 0;
+
+            // Initalize Head Coach for team
+            $hcFirstName = "";
+            $hcLastName = "";
+
             if ($team['vh'] == "V") {
-              $teamWonGame = $this->argument('v won game');
+              if ($this->argument('v won game') == true || $this->argument('v won game') == 1) {
+                $teamWonGame = 1;
+              }
+              $hcFirstName = $this->argument('v team hc first name');
+              $hcLastName = $this->argument('v team hc last name');
             }
             else if ($team['vh'] == "H") {
-              $teamWonGame = $this->argument('h won game');
+              if ($this->argument('h won game') == true || $this->argument('h won game') == 1) {
+                $teamWonGame = 1;
+              }
+              $hcFirstName = $this->argument('h team hc first name');
+              $hcLastName = $this->argument('h team hc last name');
             }
             $teamGame = Team_has_Game::firstOrNew([
               "Team_idTeam" => $teamId,
@@ -143,6 +157,39 @@ ew command instance.
               "wonGame" => $teamWonGame
             ]);
             $teamGame->save();
+
+            $headCoach = User::firstOrNew([
+              "firstName" => $hcFirstName,
+              "lastName" => $hcLastName
+            ]);
+            $hcUserId = 0;
+            if ($headCoach->save()) {
+              if ($headCoach->id == null) {
+                $hcUserId = $headCoach->idUser;
+              }
+              else {
+                $hcUserId = $headCoach->id;
+              }
+            }
+
+            $newCoach = Coach::firstOrNew([
+              "User_idUser" => $hcUserId,
+              "title" => "Head Coach"
+            ]);
+            $newCoach->save();
+
+            $coachTeam = Team_has_User::firstOrNew([
+              "User_idUser" => $hcUserId,
+              "Team_idTeam" => $teamId,
+            ]);
+            $coachTeam->save();
+
+            $coachGame = User_has_Game::firstOrNew([
+              "User_idUser" => $hcUserId,
+              "Game_idGame" => $newGameId,
+              "Game_Venue_idVenue" => $venueId
+            ]);
+            $coachGame->save();
 
             // Iterate through tags in the team attribute //
             foreach($team->children() as $teamUser) {
@@ -223,7 +270,7 @@ ew command instance.
                 }
 
                 $teamplayer1 = Team_has_User::firstOrNew([
-                  "Team_idTeam" => $addTeam1->idTeam,
+                  "Team_idTeam" => $teamId,
                   "User_idUser" => $id
                 ]);
                 $teamplayer1->save();
