@@ -1,0 +1,1492 @@
+<fbgame source="Tas Football" version="4.16.01" generated="4/17/2017">
+ <venue gameid="12USUBYU" visid="USU" homeid="BYU" visname="Utah State" homename="BYU"
+      date="11/26/2016" location="Provo, Utah" stadium="LaVell Edwards"
+      start="8:26" end="11:34 pm" nitegame="Y"
+      duration="3:08" attend="53603" temp="50" wind="s 20" weather="Night; cloudy">
+  <officials ref="ALVAREZ, David" ump="SCHAKE, Stuart" line="SHOUP, George" lj="HOSLETT, Steve" bj="AARONIAN, Micha" fj="MELACON, Scotty" sj="OCKEY, Rick" alt="DAVIS, Tim"></officials>
+  <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="Y" fgaplay="Y" netpunttb="Y"></rules>
+ </venue>
+ <team vh="V" code="731" id="USU" name="Utah State" record="3-9" conf-record="1-7" abb="U">
+  <linescore prds="2" line="3,0" score="3">
+   <lineprd prd="1" score="3"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="20" totoff_yards="87" totoff_avg="4.3">
+   <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+   <penalties no="3" yds="15"></penalties>
+   <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="00:00" ona="0" onm="0" ptsto="7"></misc>
+   <redzone att="2" scores="2" points="10" tdrush="1" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="12" yds="42" gain="47" loss="5" td="0" long="17"></rush>
+   <pass comp="5" att="8" int="0" yds="45" td="0" long="12" sacks="1" sackyds="5"></pass>
+   <rcv no="5" yds="45" td="0" long="12"></rcv>
+   <punt no="1" yds="42" long="42" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="42.0"></punt>
+   <ko no="1" yds="60" ob="0" tb="0"></ko>
+   <fg made="1" att="2" long="28" blkd="0"></fg>
+   <defense tackua="10" tacka="0" tot_tack="10" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="1" int="1" intyds="7"></defense>
+   <ir no="1" yds="7" td="0" long="7"></ir>
+   <scoring fg="1"></scoring>
+  </totals>
+  <player name="LEAVITT, Dallin" shortname="LEAVITT, Dallin" checkname="LEAVITT,DALLIN" uni="0L" class="SR" gp="1" gs="1" dpos="BS" code="0L">
+   <defense int="1" intyds="7"></defense>
+   <ir no="1" yds="7" td="0" long="7"></ir>
+  </player>
+  <player name="TARVER, R." shortname="TARVER, R." checkname="TARVER,R" uni="1T" class="SO" gp="1" code="1T">
+   <rcv no="1" yds="12" td="0" long="12"></rcv>
+  </player>
+  <player name="BYERS, Alex" shortname="BYERS, Alex" checkname="BYERS,ALEX" uni="1" class="JR" gp="1" code="1"></player>
+  <player name="NELSON, DJ" shortname="NELSON, DJ" checkname="NELSON,DJ" uni="1N" class="SO" gp="1" code="1N"></player>
+  <player name="MYERS, Kent" shortname="MYERS, Kent" checkname="MYERS,KENT" uni="2" class="JR" gp="1" gs="1" opos="QB" code="2">
+   <rush att="6" yds="12" gain="17" loss="5" td="0" long="6"></rush>
+   <pass comp="5" att="8" int="0" yds="45" td="0" long="12" sacks="1" sackyds="5"></pass>
+  </player>
+  <player name="ELLISON, M." shortname="ELLISON, M." checkname="ELLISON,M" uni="3" class="SR" gp="1" code="3"></player>
+  <player name="LINDSEY, Tonny" shortname="LINDSEY, Tonny" checkname="LINDSEY,TONNY" uni="4" class="JR" gp="1" gs="1" opos="RB" code="4">
+   <rush att="3" yds="22" gain="22" loss="0" td="0" long="17"></rush>
+  </player>
+  <player name="COLSTON-GREEN" shortname="COLSTON-GREEN" checkname="COLSTON-GREEN" uni="5" class="JR" gp="1" code="5"></player>
+  <player name="HANEY, Cameron" shortname="HANEY, Cameron" checkname="HANEY,CAMERON" uni="6" class="FR" gp="1" code="6"></player>
+  <player name="GRAY, Daniel" shortname="GRAY, Daniel" checkname="GRAY,DANIEL" uni="7" class="SR" gp="1" gs="1" dpos="CB" code="7"></player>
+  <player name="BAILEY, Wesley" shortname="BAILEY, Wesley" checkname="BAILEY,WESLEY" uni="8" class="JR" gp="1" code="8"></player>
+  <player name="LEWIS, Rayshad" shortname="LEWIS, Rayshad" checkname="LEWIS,RAYSHAD" uni="9" class="FR" gp="1" code="9"></player>
+  <player name="HOBBS, Damion" shortname="HOBBS, Damion" checkname="HOBBS,DAMION" uni="11" class="JR" gp="1" code="11"></player>
+  <player name="HUERTA, Alex" shortname="HUERTA, Alex" checkname="HUERTA,ALEX" uni="12" class="JR" gp="1" code="12"></player>
+  <player name="DAVIS, Jalen" shortname="DAVIS, Jalen" checkname="DAVIS,JALEN" uni="13" class="JR" gp="1" gs="1" dpos="CB" code="13"></player>
+  <player name="ARTIST, Chad" shortname="ARTIST, Chad" checkname="ARTIST,CHAD" uni="14" class="FR" gp="1" code="14"></player>
+  <player name="WILLIAMS, A." shortname="WILLIAMS, A." checkname="WILLIAMS,A" uni="16" class="SR" gp="1" gs="1" dpos="LB" code="16">
+   <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="1" sackua="1" sacka="0" sackyds="1"></defense>
+  </player>
+  <player name="VAN LEEUWEN, Z." shortname="VAN LEEUWEN, Z." checkname="VAN LEEUWEN,Z" uni="17" class="SO" gp="1" gs="1" opos="WR" code="17">
+   <rcv no="1" yds="7" td="0" long="7"></rcv>
+  </player>
+  <player name="TOGIAI, Ian" shortname="TOGIAI, Ian" checkname="TOGIAI,IAN" uni="19" class="JR" gp="1" code="19">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="CARMEN, Brock" shortname="CARMEN, Brock" checkname="CARMEN,BROCK" uni="20" class="SR" gp="1" gs="1" dpos="LB" code="20">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="HUNT, Lajuan" shortname="HUNT, Lajuan" checkname="HUNT,LAJUAN" uni="21" class="JR" gp="1" code="21">
+   <rush att="3" yds="8" gain="8" loss="0" td="0" long="8"></rush>
+  </player>
+  <player name="FERGUSON, Gaje" shortname="FERGUSON, Gaje" checkname="FERGUSON,GAJE" uni="23" class="SO" gp="1" gs="1" dpos="BS" code="23">
+   <defense tackua="3" tacka="0" tot_tack="3"></defense>
+  </player>
+  <player name="BAKER, Dalton" shortname="BAKER, Dalton" checkname="BAKER,DALTON" uni="24" class="FR" gp="1" code="24"></player>
+  <player name="BRIGHT, Gerold" shortname="BRIGHT, Gerold" checkname="BRIGHT,GEROLD" uni="25" class="FR" gp="1" code="25"></player>
+  <player name="WILLIAMS, K." shortname="WILLIAMS, K." checkname="WILLIAMS,K" uni="26" class="SR" gp="1" code="26">
+   <rcv no="1" yds="8" td="0" long="8"></rcv>
+  </player>
+  <player name="WADE, Aaron" shortname="WADE, Aaron" checkname="WADE,AARON" uni="28" class="SO" gp="1" code="28"></player>
+  <player name="PAINTER, Jentz" shortname="PAINTER, Jentz" checkname="PAINTER,JENTZ" uni="31" class="SR" gp="1" code="31"></player>
+  <player name="THOMPSON, Jake" shortname="THOMPSON, Jake" checkname="THOMPSON,JAKE" uni="36" class="SR" gp="1" code="36">
+   <ko no="1" yds="60" ob="0" tb="0"></ko>
+  </player>
+  <player name="CENTERS, Devin" shortname="CENTERS, Devin" checkname="CENTERS,DEVIN" uni="37" class="SR" gp="1" code="37"></player>
+  <player name="CHENEY, Austin" shortname="CHENEY, Austin" checkname="CHENEY,AUSTIN" uni="40" class="SR" gp="1" code="40"></player>
+  <player name="HORNE, Landon" shortname="HORNE, Landon" checkname="HORNE,LANDON" uni="44" class="SR" gp="1" gs="1" opos="TE" code="44"></player>
+  <player name="PALANGE, Joe" shortname="PALANGE, Joe" checkname="PALANGE,JOE" uni="45" class="SR" gp="1" code="45"></player>
+  <player name="TOBECK, Mason" shortname="TOBECK, Mason" checkname="TOBECK,MASON" uni="46" class="FR" gp="1" code="46"></player>
+  <player name="CHRISTIANSEN, C" shortname="CHRISTIANSEN, C" checkname="CHRISTIANSEN,C" uni="48" class="SO" gp="1" code="48"></player>
+  <player name="LARSEN, Derek" shortname="LARSEN, Derek" checkname="LARSEN,DEREK" uni="49" class="SO" gp="1" code="49"></player>
+  <player name="ODEGARD, Emmett" shortname="ODEGARD, Emmett" checkname="ODEGARD,EMMETT" uni="50" class="JR" gp="1" code="50"></player>
+  <player name="TE'I, Justus" shortname="TE'I, Justus" checkname="TE'I,JUSTUS" uni="51" class="FR" gp="1" gs="1" dpos="LB" code="51">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="ADEOYE, Adewale" shortname="ADEOYE, Adewale" checkname="ADEOYE,ADEWALE" uni="55" class="SO" gp="1" code="55"></player>
+  <player name="SCHUSTER, G." shortname="SCHUSTER, G." checkname="SCHUSTER,G" uni="56" class="SO" gp="1" code="56"></player>
+  <player name="STEPHENS, A." shortname="STEPHENS, A." checkname="STEPHENS,A" uni="59" class="SR" gp="1" gs="1" opos="C" code="59"></player>
+  <player name="EBERLE, Dominik" shortname="EBERLE, Dominik" checkname="EBERLE,DOMINIK" uni="62" class="FR" gp="1" code="62">
+   <fg made="0" att="1" long="0" blkd="0"></fg>
+  </player>
+  <player name="WARREN, Brock" shortname="WARREN, Brock" checkname="WARREN,BROCK" uni="63" class="SR" gp="1" code="63">
+   <fg made="1" att="1" long="28" blkd="0"></fg>
+   <scoring fg="1"></scoring>
+  </player>
+  <player name="ALBRECHT, A." shortname="ALBRECHT, A." checkname="ALBRECHT,A" uni="65" class="SR" gp="1" gs="1" opos="OL" code="65"></player>
+  <player name="ULUAVE, KJ" shortname="ULUAVE, KJ" checkname="ULUAVE,KJ" uni="66" class="SO" gp="1" gs="1" opos="OL" code="66"></player>
+  <player name="TAUKEIAHO, B." shortname="TAUKEIAHO, B." checkname="TAUKEIAHO,B" uni="67" class="JR" gp="1" code="67"></player>
+  <player name="SEEFELDT, T." shortname="SEEFELDT, T." checkname="SEEFELDT,T" uni="70" class="SR" gp="1" gs="1" dpos="NG" code="70"></player>
+  <player name="BROOKSBY, P." shortname="BROOKSBY, P." checkname="BROOKSBY,P" uni="73" class="JR" gp="1" gs="1" opos="OL" code="73"></player>
+  <player name="HOCKEL, Jude" shortname="HOCKEL, Jude" checkname="HOCKEL,JUDE" uni="74" class="SR" gp="1" code="74"></player>
+  <player name="SIMONICH, Jake" shortname="SIMONICH, Jake" checkname="SIMONICH,JAKE" uni="76" class="SR" gp="1" gs="1" opos="OL" code="76"></player>
+  <player name="RODRIGUEZ, A." shortname="RODRIGUEZ, A." checkname="RODRIGUEZ,A" uni="82" class="SR" gp="1" code="82"></player>
+  <player name="HOUSTON, Wyatt" shortname="HOUSTON, Wyatt" checkname="HOUSTON,WYATT" uni="83" class="SR" gp="1" gs="1" opos="TE" code="83"></player>
+  <player name="CORTAZZO, Ethan" shortname="CORTAZZO, Ethan" checkname="CORTAZZO,ETHAN" uni="84" class="JR" gp="1" code="84"></player>
+  <player name="HASTINGS, Derek" shortname="HASTINGS, Derek" checkname="HASTINGS,DEREK" uni="85" class="FR" gp="1" code="85"></player>
+  <player name="ROBERTS, B." shortname="ROBERTS, B." checkname="ROBERTS,B" uni="88" class="JR" gp="1" gs="1" opos="WR" code="88">
+   <rcv no="2" yds="18" td="0" long="11"></rcv>
+  </player>
+  <player name="DALTON, Aaron" shortname="DALTON, Aaron" checkname="DALTON,AARON" uni="89" class="SO" gp="1" code="89">
+   <punt no="1" yds="42" long="42" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="42.0"></punt>
+  </player>
+  <player name="TAUFA, Siua" shortname="TAUFA, Siua" checkname="TAUFA,SIUA" uni="91" class="SR" gp="1" code="91"></player>
+  <player name="WILDMAN, Jacoby" shortname="WILDMAN, Jacoby" checkname="WILDMAN,JACOBY" uni="93" class="FR" gp="1" code="93"></player>
+  <player name="ALI'IFUA, Ricky" shortname="ALI'IFUA, Ricky" checkname="ALI'IFUA,RICKY" uni="95" class="SR" gp="1" gs="1" dpos="DE" code="95"></player>
+  <player name="'UNGA, C." shortname="'UNGA, C." checkname="'UNGA,C" uni="96" class="FR" gp="1" code="96"></player>
+  <player name="FAIMALO, Edmund" shortname="FAIMALO, Edmund" checkname="FAIMALO,EDMUND" uni="98" class="SR" gp="1" gs="1" dpos="DE" code="98"></player>
+  <player name="UASIKE, M." shortname="UASIKE, M." checkname="UASIKE,M" uni="99" class="FR" gp="1" gs="1" dpos="NG" code="99"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198"></player>
+ </team>
+ <team vh="H" code="77" id="BYU" name="BYU" record="8-4" abb="B">
+  <linescore prds="2" line="0,0" score="0">
+   <lineprd prd="1" score="0"></lineprd>
+   <lineprd prd="2" score="0"></lineprd>
+  </linescore>
+  <totals totoff_plays="11" totoff_yards="88" totoff_avg="8.0">
+   <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+   <penalties no="3" yds="25"></penalties>
+   <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"></conversions>
+   <fumbles no="0" lost="0"></fumbles>
+   <misc yds="0" top="00:00" ona="0" onm="0" ptsto="14"></misc>
+   <redzone att="4" scores="3" points="21" tdrush="1" tdpass="2" fgmade="0" endfga="1" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"></redzone>
+   <rush att="7" yds="48" gain="49" loss="1" td="0" long="15"></rush>
+   <pass comp="2" att="4" int="1" yds="40" td="0" long="35" sacks="1" sackyds="1"></pass>
+   <rcv no="2" yds="40" td="0" long="35"></rcv>
+   <punt no="1" yds="39" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.0"></punt>
+   <ko no="1" yds="65" ob="0" tb="1"></ko>
+   <defense tackua="13" tacka="10" tot_tack="23" tflua="1" tfla="0" tflyds="5" sacks="1" sackyds="5" brup="1" qbh="1"></defense>
+   <kr no="1" yds="16" td="0" long="16"></kr>
+  </totals>
+  <player name="LAULU-PUTUTAU,M" shortname="LAULU-PUTUTAU,M" checkname="LAULU-PUTUTAU,M" uni="1" class="SO" gp="1" code="1"></player>
+  <player name="MANGUM, Tanner" shortname="MANGUM, Tanner" checkname="MANGUM,TANNER" uni="1C" class="SO" gp="1" code="1C"></player>
+  <player name="EDWARDS, Corey" shortname="EDWARDS, Corey" checkname="EDWARDS,COREY" uni="1G" class="SO" gp="1" code="1G">
+   <ko no="1" yds="65" ob="0" tb="1"></ko>
+  </player>
+  <player name="HADLEY, Matt" shortname="HADLEY, Matt" checkname="HADLEY,MATT" uni="2" class="JR" gp="1" code="2">
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="ARMSTRONG, Isai" shortname="ARMSTRONG, Isai" checkname="ARMSTRONG,ISAI" uni="3D" class="SO" gp="1" code="3D"></player>
+  <player name="PEARSON, Colby" shortname="PEARSON, Colby" checkname="PEARSON,COLBY" uni="3" class="SR" gp="1" code="3"></player>
+  <player name="LINEHAN, Jonny" shortname="LINEHAN, Jonny" checkname="LINEHAN,JONNY" uni="3B" class="SR" gp="1" code="3B">
+   <punt no="1" yds="39" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.0"></punt>
+  </player>
+  <player name="WARNER, Fred" shortname="WARNER, Fred" checkname="WARNER,FRED" uni="4" class="JR" gp="1" gs="1" dpos="FLB" code="4">
+   <defense tackua="0" tacka="3" tot_tack="3"></defense>
+  </player>
+  <player name="LAKE, Dayan" shortname="LAKE, Dayan" checkname="LAKE,DAYAN" uni="5D" class="FR" gp="1" gs="1" dpos="RC" code="5D">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="DAWE, Parker" shortname="DAWE, Parker" checkname="DAWE,PARKER" uni="5E" class="SR" gp="1" code="5E"></player>
+  <player name="KURTZ, Nick" shortname="KURTZ, Nick" checkname="KURTZ,NICK" uni="5" class="SR" gp="1" gs="1" opos="WR" code="5">
+   <rcv no="1" yds="35" td="0" long="35"></rcv>
+  </player>
+  <player name="HILL, Taysom" shortname="HILL, Taysom" checkname="HILL,TAYSOM" uni="7Q" class="SR" gp="1" gs="1" opos="QB" code="7Q">
+   <rush att="2" yds="7" gain="8" loss="1" td="0" long="8"></rush>
+   <pass comp="2" att="4" int="1" yds="40" td="0" long="35" sacks="1" sackyds="1"></pass>
+  </player>
+  <player name="HANNEMANN, Mica" shortname="HANNEMANN, Mica" checkname="HANNEMANN,MICA" uni="7" class="JR" gp="1" gs="1" dpos="SS" code="7"></player>
+  <player name="GREENE, Kamel" shortname="GREENE, Kamel" checkname="GREENE,KAMEL" uni="10" class="JR" gp="1" code="10"></player>
+  <player name="WARNER, Troy" shortname="WARNER, Troy" checkname="WARNER,TROY" uni="11" class="FR" gp="1" gs="1" dpos="LC" code="11">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="NACUA, Kai" shortname="NACUA, Kai" checkname="NACUA,KAI" uni="12" class="SR" gp="1" gs="1" dpos="FS" code="12">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="BERNARD, Franci" shortname="BERNARD, Franci" checkname="BERNARD,FRANCI" uni="13" class="SO" gp="1" gs="1" dpos="BLB" code="13">
+   <defense tackua="1" tacka="2" tot_tack="3"></defense>
+  </player>
+  <player name="DAVIS, Michael" shortname="DAVIS, Michael" checkname="DAVIS,MICHAEL" uni="15" class="SR" gp="1" code="15"></player>
+  <player name="LANGI, Harvey" shortname="LANGI, Harvey" checkname="LANGI,HARVEY" uni="16" class="SR" gp="1" gs="1" dpos="E" code="16">
+   <defense tackua="1" tacka="0" tot_tack="1" qbh="1"></defense>
+  </player>
+  <player name="BADGER, Chris" shortname="BADGER, Chris" checkname="BADGER,CHRIS" uni="17" class="SR" gp="1" code="17"></player>
+  <player name="SHELTON, Michae" shortname="SHELTON, Michae" checkname="SHELTON,MICHAE" uni="18" class="SO" gp="1" code="18"></player>
+  <player name="HALL, KJ" shortname="HALL, KJ" checkname="HALL,KJ" uni="20" class="FR" gp="1" code="20"></player>
+  <player name="WILLIAMS, Jamaa" shortname="WILLIAMS, Jamaa" checkname="WILLIAMS,JAMAA" uni="21" class="SR" gp="1" gs="1" opos="RB" code="21">
+   <rush att="5" yds="41" gain="41" loss="0" td="0" long="15"></rush>
+  </player>
+  <player name="CANADA, Squally" shortname="CANADA, Squally" checkname="CANADA,SQUALLY" uni="22" class="SO" gp="1" code="22"></player>
+  <player name="JUERGENS, Garre" shortname="JUERGENS, Garre" checkname="JUERGENS,GARRE" uni="23" class="SR" gp="1" gs="1" opos="WR" code="23"></player>
+  <player name="BROWN, Algernon" shortname="BROWN, Algernon" checkname="BROWN,ALGERNON" uni="24" class="SR" gp="1" gs="1" opos="RB" code="24"></player>
+  <player name="JACOBSON, Tanne" shortname="JACOBSON, Tanne" checkname="JACOBSON,TANNE" uni="25" class="SO" gp="1" code="25"></player>
+  <player name="ALMOND, Rhett" shortname="ALMOND, Rhett" checkname="ALMOND,RHETT" uni="26" class="SO" gp="1" code="26"></player>
+  <player name="POWELL, Sawyer" shortname="POWELL, Sawyer" checkname="POWELL,SAWYER" uni="28" class="JR" gp="1" code="28"></player>
+  <player name="STEWART, Cody" shortname="STEWART, Cody" checkname="STEWART,CODY" uni="29" class="JR" gp="1" code="29"></player>
+  <player name="FONUA, Kavika" shortname="FONUA, Kavika" checkname="FONUA,KAVIKA" uni="30" class="SO" gp="1" code="30">
+   <defense tackua="1" tacka="1" tot_tack="2"></defense>
+  </player>
+  <player name="TAUTU, Sae" shortname="TAUTU, Sae" checkname="TAUTU,SAE" uni="31" class="SR" gp="1" gs="1" dpos="OE" code="31"></player>
+  <player name="WILCOX, Chris" shortname="WILCOX, Chris" checkname="WILCOX,CHRIS" uni="32" class="FR" gp="1" code="32"></player>
+  <player name="TAKENAKA, Eric" shortname="TAKENAKA, Eric" checkname="TAKENAKA,ERIC" uni="33" class="SR" gp="1" code="33"></player>
+  <player name="EL-BAKRI, Brayd" shortname="EL-BAKRI, Brayd" checkname="EL-BAKRI,BRAYD" uni="35" class="SO" gp="1" code="35"></player>
+  <player name="ANDERSON, Zayne" shortname="ANDERSON, Zayne" checkname="ANDERSON,ZAYNE" uni="36" class="SO" gp="1" code="36"></player>
+  <player name="PAU'U, Butch" shortname="PAU'U, Butch" checkname="PAU'U,BUTCH" uni="38" class="SO" gp="1" gs="1" dpos="MLB" code="38">
+   <defense tackua="2" tacka="0" tot_tack="2"></defense>
+  </player>
+  <player name="PULSIPHER, Adam" shortname="PULSIPHER, Adam" checkname="PULSIPHER,ADAM" uni="41" class="SO" gp="1" code="41"></player>
+  <player name="HEDER, Austin" shortname="HEDER, Austin" checkname="HEDER,AUSTIN" uni="42" class="SR" gp="1" code="42"></player>
+  <player name="TAPUSOA, Johnny" shortname="TAPUSOA, Johnny" checkname="TAPUSOA,JOHNNY" uni="43" class="FR" gp="1" code="43"></player>
+  <player name="SANDLIN, Rhett" shortname="SANDLIN, Rhett" checkname="SANDLIN,RHETT" uni="46" class="SO" gp="1" code="46"></player>
+  <player name="LAULILE, Tomasi" shortname="LAULILE, Tomasi" checkname="LAULILE,TOMASI" uni="48" class="JR" gp="1" code="48"></player>
+  <player name="KAUMATULE, Mose" shortname="KAUMATULE, Mose" checkname="KAUMATULE,MOSE" uni="49" class="SO" gp="1" code="49"></player>
+  <player name="MO'UNGA, Tevita" shortname="MO'UNGA, Tevita" checkname="MO'UNGA,TEVITA" uni="50" class="SO" gp="1" code="50"></player>
+  <player name="UNGA, Morgan" shortname="UNGA, Morgan" checkname="UNGA,MORGAN" uni="51" class="JR" gp="1" code="51"></player>
+  <player name="KOROMA, Tejan" shortname="KOROMA, Tejan" checkname="KOROMA,TEJAN" uni="56" class="JR" gp="1" gs="1" opos="C" code="56"></player>
+  <player name="SHOAF, Thomas" shortname="SHOAF, Thomas" checkname="SHOAF,THOMAS" uni="59" class="FR" gp="1" gs="1" opos="RT" code="59"></player>
+  <player name="TAELE, Logan" shortname="TAELE, Logan" checkname="TAELE,LOGAN" uni="62" class="SR" gp="1" gs="1" dpos="T" code="62">
+   <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"></defense>
+  </player>
+  <player name="FOLEY, Matt" shortname="FOLEY, Matt" checkname="FOLEY,MATT" uni="64" class="SO" gp="1" code="64"></player>
+  <player name="NWIGWE, JJ" shortname="NWIGWE, JJ" checkname="NWIGWE,JJ" uni="65" class="SO" gp="1" code="65"></player>
+  <player name="JOHNSON, Kyle" shortname="JOHNSON, Kyle" checkname="JOHNSON,KYLE" uni="67" class="SR" gp="1" code="67"></player>
+  <player name="JIMENEZ, Jacob" shortname="JIMENEZ, Jacob" checkname="JIMENEZ,JACOB" uni="70" class="SO" gp="1" code="70"></player>
+  <player name="HOYT, Austin" shortname="HOYT, Austin" checkname="HOYT,AUSTIN" uni="71" class="SO" gp="1" code="71"></player>
+  <player name="NORMAN, Keyan" shortname="NORMAN, Keyan" checkname="NORMAN,KEYAN" uni="76" class="JR" gp="1" gs="1" opos="LG" code="76"></player>
+  <player name="KANUCH, Tuni" shortname="KANUCH, Tuni" checkname="KANUCH,TUNI" uni="78" class="JR" gp="1" gs="1" opos="RG" code="78"></player>
+  <player name="EIDE, Andrew" shortname="EIDE, Andrew" checkname="EIDE,ANDREW" uni="79" class="SR" gp="1" gs="1" opos="LT" code="79"></player>
+  <player name="SHUMWAY, Talon" shortname="SHUMWAY, Talon" checkname="SHUMWAY,TALON" uni="82" class="FR" gp="1" code="82"></player>
+  <player name="TRINNAMAN, Jona" shortname="TRINNAMAN, Jona" checkname="TRINNAMAN,JONA" uni="84" class="JR" gp="1" code="84"></player>
+  <player name="SAMPSON, Nate" shortname="SAMPSON, Nate" checkname="SAMPSON,NATE" uni="85" class="JR" gp="1" code="85"></player>
+  <player name="JUERGENS, Mitch" shortname="JUERGENS, Mitch" checkname="JUERGENS,MITCH" uni="87" class="SR" gp="1" gs="1" opos="WR" code="87"></player>
+  <player name="HIFO, Aleva" shortname="HIFO, Aleva" checkname="HIFO,ALEVA" uni="88" class="FR" gp="1" code="88">
+   <kr no="1" yds="16" td="0" long="16"></kr>
+  </player>
+  <player name="BALDERREE, Tann" shortname="BALDERREE, Tann" checkname="BALDERREE,TANN" uni="89" class="JR" gp="1" code="89"></player>
+  <player name="KAUFUSI, Corbin" shortname="KAUFUSI, Corbin" checkname="KAUFUSI,CORBIN" uni="90" class="SO" gp="1" code="90">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="TANIELU, Handso" shortname="TANIELU, Handso" checkname="TANIELU,HANDSO" uni="92" class="JR" gp="1" code="92">
+   <defense tackua="0" tacka="1" tot_tack="1"></defense>
+  </player>
+  <player name="TAUSINGA, Kesni" shortname="TAUSINGA, Kesni" checkname="TAUSINGA,KESNI" uni="94" class="JR" gp="1" gs="1" dpos="N" code="94">
+   <defense brup="1"></defense>
+  </player>
+  <player name="MARSHALL, Hunte" shortname="MARSHALL, Hunte" checkname="MARSHALL,HUNTE" uni="96" class="SO" gp="1" code="96">
+   <rcv no="1" yds="5" td="0" long="5"></rcv>
+   <defense tackua="1" tacka="0" tot_tack="1"></defense>
+  </player>
+  <player name="PILI, Trajan" shortname="PILI, Trajan" checkname="PILI,TRAJAN" uni="98" class="FR" gp="1" code="98"></player>
+  <player name="WOLFGRAMM, Solo" shortname="WOLFGRAMM, Solo" checkname="WOLFGRAMM,SOLO" uni="99" class="SO" gp="1" code="99"></player>
+  <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="" gp="1" code="198"></player>
+ </team>
+ <scores>
+  <score vh="V" team="USU" qtr="1" clock="09:39" type="FG" yds="28" scorer="WARREN, Brock" plays="12" drive="64" top="0:00" vscore="3" hscore="0" driveindex="1"></score>
+ </scores>
+ <fgas>
+  <fga vh="V" team="USU" kicker="WARREN, Brock" qtr="1" clock="09:39" distance="28" result="good"></fga>
+  <fga vh="V" team="USU" kicker="EBERLE, Dominik" qtr="1" clock="04:58" distance="46" result="missed"></fga>
+ </fgas>
+ <drives>
+  <drive vh="V" team="USU" start="KO,1,15:00,25" end="FG,1,09:33,89" plays="12" yards="64" top="5:27" start_how="KO" start_qtr="1" start_time="15:00" start_spot="USU25" end_how="FG" end_qtr="1" end_time="09:33" end_spot="BYU11" driveindex="1"></drive>
+  <drive vh="H" team="BYU" start="KO,1,09:33,21" end="PUNT,1,08:05,20" plays="3" yards="-1" top="1:28" start_how="KO" start_qtr="1" start_time="09:33" start_spot="BYU21" end_how="PUNT" end_qtr="1" end_time="08:05" end_spot="BYU20" driveindex="2"></drive>
+  <drive vh="V" team="USU" start="PUNT,1,08:05,41" end="FGA,1,04:58,72" plays="7" yards="31" top="3:07" start_how="PUNT" start_qtr="1" start_time="08:05" start_spot="USU41" end_how="FGA" end_qtr="1" end_time="04:58" end_spot="BYU28" driveindex="3"></drive>
+  <drive vh="H" team="BYU" start="FGA,1,04:58,28" end="INT,1,03:05,55" plays="5" yards="27" top="1:53" start_how="FGA" start_qtr="1" start_time="04:58" start_spot="BYU28" end_how="INT" end_qtr="1" end_time="03:05" end_spot="USU45" driveindex="4"></drive>
+  <drive vh="V" team="USU" start="INT,1,03:05,46" end="PUNT,1,01:27,48" plays="3" yards="2" top="1:38" start_how="INT" start_qtr="1" start_time="03:05" start_spot="USU46" end_how="PUNT" end_qtr="1" end_time="01:27" end_spot="USU48" driveindex="5"></drive>
+  <drive vh="H" team="BYU" start="PUNT,1,01:27,10" end=",2,15:00,72" plays="3" yards="62" top="1:27" start_how="PUNT" start_qtr="1" start_time="01:27" start_spot="BYU10" end_how="" end_qtr="2" end_time="15:00" end_spot="USU28" driveindex="6"></drive>
+ </drives>
+ <plays format="summary">
+  <qtr number="1" text="1st">
+   <play hasball="USU" down="1" togo="10" spot="USU35" context="V,1,10,V35" playid="0,1,0" tokens="CMT:Coin toss: BYU wins, defers. USU receives and defends north goal."
+      text="Coin toss: BYU wins, defers. USU receives and defends north goal." newcontext="V,1,10,V35">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU35" context="V,1,10,V35" playid="0,2,1" tokens="SPOT:H,H35,N"
+      text="BYU ball on BYU35." newcontext="H,1,10,H35">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU35" context="H,1,10,H35" playid="0,3,2" type="K" tokens="KO:1G,V00 TB:"
+      text="EDWARDS, Corey kickoff 65 yards to the USU0, touchback." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="EDWARDS, Corey" gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V25,15:00" vh="V" spot="V25" clock="15:00" driveindex="1,2"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU25" context="V,1,10,V25" playid="1,1,3" type="R" tokens="RUSH:2,V30, TACK:13,62"
+      text="MYERS, Kent rush for 5 yards to the USU30 (BERNARD, Franci;TAELE, Logan)." newcontext="V,2,5,V30">
+    <p_ru vh="V" name="MYERS, Kent" gain="5"></p_ru>
+    <p_tk vh="H" name="BERNARD, Franci" assist="Y"></p_tk>
+    <p_tk vh="H" name="TAELE, Logan" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="5" spot="USU30" context="V,2,5,V30" playid="1,2,4" type="P" tokens="PASS:2,I,83,* BRUP:94"
+      text="MYERS, Kent pass incomplete to HOUSTON, Wyatt (TAUSINGA, Kesni)." newcontext="V,3,5,V30">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="HOUSTON, Wyatt"></p_pa>
+    <p_bu vh="H" name="TAUSINGA, Kesni"></p_bu>
+   </play>
+   <play hasball="USU" down="3" togo="5" spot="USU30" context="V,3,5,V30" playid="1,3,5" type="P" first="P" tokens="PASS:2,C,17,V37 TACK:13"
+      text="MYERS, Kent pass complete to VAN LEEUWEN, Z. for 7 yards to the USU37, 1ST DOWN USU (BERNARD, Franci)." newcontext="V,1,10,V37">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="VAN LEEUWEN, Z." gain="7"></p_pa>
+    <p_tk vh="H" name="BERNARD, Franci"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU37" context="V,1,10,V37" playid="1,4,6" type="P" tokens="PASS:2,I,17,*"
+      text="MYERS, Kent pass incomplete to VAN LEEUWEN, Z.." newcontext="V,2,10,V37">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="VAN LEEUWEN, Z."></p_pa>
+   </play>
+   <play hasball="USU" down="2" togo="10" spot="USU37" context="V,2,10,V37" playid="1,5,7" type="R" tokens="RUSH:21,V45, TACK:13,4"
+      text="HUNT, Lajuan rush for 8 yards to the USU45 (BERNARD, Franci;WARNER, Fred)." newcontext="V,3,2,V45">
+    <p_ru vh="V" name="HUNT, Lajuan" gain="8"></p_ru>
+    <p_tk vh="H" name="BERNARD, Franci" assist="Y"></p_tk>
+    <p_tk vh="H" name="WARNER, Fred" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="2" spot="USU45" context="V,3,2,V45" playid="1,6,8" type="P" first="P" tokens="PASS:2,C,88,H44 OB: TACK:5D,"
+      text="MYERS, Kent pass complete to ROBERTS, B. for 11 yards to the BYU44, 1ST DOWN USU, out-of-bounds (LAKE, Dayan)." ob="Y" newcontext="V,1,10,H44">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="ROBERTS, B." gain="11"></p_pa>
+    <p_tk vh="H" name="LAKE, Dayan"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU44" context="V,1,10,H44" playid="1,7,9" type="E" tokens="RUSH:2,H38, TACK:5D PEN:H,OS,A,TM,H39,N NOPLAY:"
+      text="MYERS, Kent rush for 6 yards to the BYU38 (LAKE, Dayan), PENALTY BYU offside 5 yards to the BYU39, NO PLAY." newcontext="V,1,5,H39">
+    <p_pn vh="H" code="OS" type="offside" result="ACCEPT" at="H44" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="1" togo="5" spot="BYU39" context="V,1,5,H39" playid="1,8,10" type="P" first="P" tokens="PASS:2,C,1T,H27 TACK:30"
+      text="MYERS, Kent pass complete to TARVER, R. for 12 yards to the BYU27, 1ST DOWN USU (FONUA, Kavika)." newcontext="V,1,10,H27">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="TARVER, R." gain="12"></p_pa>
+    <p_tk vh="H" name="FONUA, Kavika"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU27" context="V,1,10,H27" playid="1,9,11" type="R" first="R" tokens="RUSH:4,H10, TACK:2"
+      text="LINDSEY, Tonny rush for 17 yards to the BYU10, 1ST DOWN USU (HADLEY, Matt)." newcontext="V,1,0,H10">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="17"></p_ru>
+    <p_tk vh="H" name="HADLEY, Matt"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="0" spot="BYU10" context="V,1,0,H10" playid="1,10,12" type="R" tokens="RUSH:4,H09, TACK:30,92"
+      text="LINDSEY, Tonny rush for 1 yard to the BYU9 (FONUA, Kavika;TANIELU, Handso)." newcontext="V,2,0,H09">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="1"></p_ru>
+    <p_tk vh="H" name="FONUA, Kavika" assist="Y"></p_tk>
+    <p_tk vh="H" name="TANIELU, Handso" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="0" spot="BYU09" context="V,2,0,H09" playid="1,11,13" type="E" tokens="PEN:V,FS,A,TM,H14,N"
+      text="PENALTY USU false start 5 yards to the BYU14." newcontext="V,2,0,H14">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="H09" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="2" togo="0" spot="BYU14" context="V,2,0,H14" playid="1,12,14" type="E" tokens="PEN:H,DG,A,TM,H09,N"
+      text="PENALTY BYU delay of game 5 yards to the BYU9." newcontext="V,2,0,H09">
+    <p_pn vh="H" code="DG" type="delay of game" result="ACCEPT" at="H14" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="2" togo="0" spot="BYU09" context="V,2,0,H09" playid="1,13,15" type="R" tokens="RUSH:2,H06, TACK:4,5D"
+      text="MYERS, Kent rush for 3 yards to the BYU6 (WARNER, Fred;LAKE, Dayan)." newcontext="V,3,0,H06">
+    <p_ru vh="V" name="MYERS, Kent" gain="3"></p_ru>
+    <p_tk vh="H" name="WARNER, Fred" assist="Y"></p_tk>
+    <p_tk vh="H" name="LAKE, Dayan" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="0" spot="BYU06" context="V,3,0,H06" playid="1,14,16" type="P" tokens="PASS:2,S,TM,H11 SACK:62"
+      text="MYERS, Kent sacked for loss of 5 yards to the BYU11 (TAELE, Logan)." newcontext="V,4,0,H11">
+    <p_pa vh="V" qb="MYERS, Kent" result="SACK" gain="-5"></p_pa>
+    <p_tk vh="H" name="TAELE, Logan" sack="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="4" togo="0" spot="BYU11" context="V,4,0,H11" playid="1,15,17" type="F" score="Y" vscore="3" hscore="0" clock="09:39" tokens="FGA:63,28,G T:09:39"
+      text="WARREN, Brock field goal attempt from 28 GOOD, clock 09:39." newcontext="V,1,0,V35">
+    <p_fg vh="V" name="WARREN, Brock" distance="28" result="GOOD" score="Y"></p_fg>
+   </play>
+   <score V="3" H="0"></score>
+   <drivesum plays="12" yards="64" top="5:27" driveindex="1" complete="Y"></drivesum>
+   <play hasball="USU" down="1" togo="0" spot="USU35" context="V,1,0,V35" playid="1,16,18" type="K" tokens="KO:36,H05 RET:88,H21 TACK:23"
+      text="THOMPSON, Jake kickoff 60 yards to the BYU5, HIFO, Aleva return 16 yards to the BYU21 (FERGUSON, Gaje)." newcontext="H,1,10,H21">
+    <p_ko vh="V" name="THOMPSON, Jake" gain="60"></p_ko>
+    <p_kr vh="H" name="HIFO, Aleva" gain="16"></p_kr>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <drivestart poss="H,H21,09:33" vh="H" spot="H21" clock="09:33" driveindex="2,18"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU21" context="H,1,10,H21" playid="2,1,19" clock="09:33" tokens="{DRIVE}:09:33"
+      text="BYU drive start at 09:33." newcontext="H,1,10,H21">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU21" context="H,1,10,H21" playid="2,2,20" type="R" tokens="RUSH:21,H21, TACK:20"
+      text="WILLIAMS, Jamaa rush for no gain to the BYU21 (CARMEN, Brock)." newcontext="H,2,10,H21">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="0"></p_ru>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="10" spot="BYU21" context="H,2,10,H21" playid="2,3,21" type="P" tokens="PASS:7Q,I,23,*"
+      text="HILL, Taysom pass incomplete to JUERGENS, Garre." newcontext="H,3,10,H21">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="JUERGENS, Garre"></p_pa>
+   </play>
+   <play hasball="BYU" down="3" togo="10" spot="BYU21" context="H,3,10,H21" playid="2,4,22" type="P" tokens="PASS:7Q,S,TM,H20 SACK:16"
+      text="HILL, Taysom sacked for loss of 1 yard to the BYU20 (WILLIAMS, A.)." newcontext="H,4,11,H20">
+    <p_pa vh="H" qb="HILL, Taysom" result="SACK" gain="-1"></p_pa>
+    <p_tk vh="V" name="WILLIAMS, A." sack="Y"></p_tk>
+   </play>
+   <play hasball="BYU" down="4" togo="11" spot="BYU20" context="H,4,11,H20" playid="2,5,23" type="U" tokens="PUNT:3B,V41 DN:"
+      text="LINEHAN, Jonny punt 39 yards to the USU41, downed." newcontext="V,1,10,V41">
+    <p_pu vh="H" name="LINEHAN, Jonny" gain="39"></p_pu>
+   </play>
+   <drivesum plays="3" yards="-1" top="1:28" driveindex="2" complete="Y"></drivesum>
+   <drivestart poss="V,V41,08:05" vh="V" spot="V41" clock="08:05" driveindex="3,23"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU41" context="V,1,10,V41" playid="3,1,24" clock="08:05" tokens="{DRIVE}:08:05"
+      text="UTAH STATE drive start at 08:05." newcontext="V,1,10,V41">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU41" context="V,1,10,V41" playid="3,2,25" type="R" tokens="RUSH:4,V45, TACK:12"
+      text="LINDSEY, Tonny rush for 4 yards to the USU45 (NACUA, Kai)." newcontext="V,2,6,V45">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="4"></p_ru>
+    <p_tk vh="H" name="NACUA, Kai"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="6" spot="USU45" context="V,2,6,V45" playid="3,3,26" type="R" tokens="RUSH:2,V46, TACK:12"
+      text="MYERS, Kent rush for 1 yard to the USU46 (NACUA, Kai)." newcontext="V,3,5,V46">
+    <p_ru vh="V" name="MYERS, Kent" gain="1"></p_ru>
+    <p_tk vh="H" name="NACUA, Kai"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="5" spot="USU46" context="V,3,5,V46" playid="3,4,27" type="R" first="R" tokens="RUSH:2,H48, TACK:11"
+      text="MYERS, Kent rush for 6 yards to the BYU48, 1ST DOWN USU (WARNER, Troy)." newcontext="V,1,10,H48">
+    <p_ru vh="V" name="MYERS, Kent" gain="6"></p_ru>
+    <p_tk vh="H" name="WARNER, Troy"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU48" context="V,1,10,H48" playid="3,5,28" type="E" first="E" tokens="PEN:H,UC,A,TM,H33,N"
+      text="PENALTY BYU unsportsmanlike conduct 15 yards to the BYU33, 1ST DOWN USU." newcontext="V,1,10,H33">
+    <p_pn vh="H" code="UC" type="unsportsmanlike conduct" result="ACCEPT" at="H48" yards="15"></p_pn>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU33" context="V,1,10,H33" playid="3,6,29" type="E" tokens="PEN:V,FS,A,TM,H38,N"
+      text="PENALTY USU false start 5 yards to the BYU38." newcontext="V,1,15,H38">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="H33" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="1" togo="15" spot="BYU38" context="V,1,15,H38" playid="3,7,30" type="R" tokens="RUSH:2,H36, TACK:16"
+      text="MYERS, Kent rush for 2 yards to the BYU36 (LANGI, Harvey)." newcontext="V,2,13,H36">
+    <p_ru vh="V" name="MYERS, Kent" gain="2"></p_ru>
+    <p_tk vh="H" name="LANGI, Harvey"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="13" spot="BYU36" context="V,2,13,H36" playid="3,8,31" type="P" tokens="PASS:2,C,26,H28 TACK:38"
+      text="MYERS, Kent pass complete to WILLIAMS, K. for 8 yards to the BYU28 (PAU'U, Butch)." newcontext="V,3,5,H28">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="WILLIAMS, K." gain="8"></p_pa>
+    <p_tk vh="H" name="PAU'U, Butch"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="5" spot="BYU28" context="V,3,5,H28" playid="3,9,32" type="R" tokens="RUSH:21,H28, TACK:90,4"
+      text="HUNT, Lajuan rush for no gain to the BYU28 (KAUFUSI, Corbin;WARNER, Fred)." newcontext="V,4,5,H28">
+    <p_ru vh="V" name="HUNT, Lajuan" gain="0"></p_ru>
+    <p_tk vh="H" name="KAUFUSI, Corbin" assist="Y"></p_tk>
+    <p_tk vh="H" name="WARNER, Fred" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="4" togo="5" spot="BYU28" context="V,4,5,H28" playid="3,10,33" type="#" clock="05:03" tokens="TOUT:V T:05:03"
+      text="Timeout Utah State, clock 05:03." newcontext="V,4,5,H28">
+    <p_to vh="V" team="Utah State"></p_to>
+   </play>
+   <play hasball="USU" down="4" togo="5" spot="BYU28" context="V,4,5,H28" playid="3,11,34" type="F" clock="04:58" tokens="FGA:62,46,M,H28,R T:04:58"
+      text="EBERLE, Dominik field goal attempt from 46 MISSED - wide right, spot at BYU28, clock 04:58." newcontext="H,1,10,H28">
+    <p_fg vh="V" name="EBERLE, Dominik" distance="46" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="7" yards="31" top="3:07" driveindex="3" complete="Y"></drivesum>
+   <drivestart poss="H,H28,04:58" vh="H" spot="H28" clock="04:58" driveindex="4,34"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU28" context="H,1,10,H28" playid="4,1,35" clock="04:58" tokens="{DRIVE}:04:58"
+      text="BYU drive start at 04:58." newcontext="H,1,10,H28">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU28" context="H,1,10,H28" playid="4,2,36" type="R" tokens="RUSH:7Q,H36, TACK:20"
+      text="HILL, Taysom rush for 8 yards to the BYU36 (CARMEN, Brock)." newcontext="H,2,2,H36">
+    <p_ru vh="H" name="HILL, Taysom" gain="8"></p_ru>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="2" spot="BYU36" context="H,2,2,H36" playid="4,3,37" type="R" first="R" tokens="RUSH:21,H49, TACK:23"
+      text="WILLIAMS, Jamaa rush for 13 yards to the BYU49, 1ST DOWN BYU (FERGUSON, Gaje)." newcontext="H,1,10,H49">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="13"></p_ru>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU49" context="H,1,10,H49" playid="4,4,38" type="R" tokens="RUSH:21,H50, TACK:51"
+      text="WILLIAMS, Jamaa rush for 1 yard to the 50 yardline (TE'I, Justus)." newcontext="H,2,9,H50">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="1"></p_ru>
+    <p_tk vh="V" name="TE'I, Justus"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="9" spot="BYU50" context="H,2,9,H50" playid="4,5,39" type="P" tokens="PASS:7Q,C,96,V45 TACK:23"
+      text="HILL, Taysom pass complete to MARSHALL, Hunte for 5 yards to the USU45 (FERGUSON, Gaje)." newcontext="H,3,4,V45">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="MARSHALL, Hunte" gain="5"></p_pa>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="USU45" context="H,3,4,V45" playid="4,6,40" type="P" turnover="I" tokens="PASS:7Q,X,0L,V39 RET:0L,V46 TACK:96"
+      text="HILL, Taysom pass intercepted by LEAVITT, Dallin at the USU39, LEAVITT, Dallin return 7 yards to the USU46 (MARSHALL, Hunte)." newcontext="V,1,10,V46">
+    <p_pa vh="H" qb="HILL, Taysom" result="INT"></p_pa>
+    <p_ir vh="V" name="LEAVITT, Dallin" at="V39" gain="7"></p_ir>
+    <p_tk vh="H" name="MARSHALL, Hunte"></p_tk>
+   </play>
+   <drivesum plays="5" yards="27" top="1:53" driveindex="4" complete="Y"></drivesum>
+   <drivestart poss="V,V46,03:05" vh="V" spot="V46" clock="03:05" driveindex="5,40"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU46" context="V,1,10,V46" playid="5,1,41" clock="03:05" tokens="{DRIVE}:03:05"
+      text="UTAH STATE drive start at 03:05." newcontext="V,1,10,V46">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU46" context="V,1,10,V46" playid="5,2,42" type="P" tokens="PASS:2,C,88,H47 TACK:11"
+      text="MYERS, Kent pass complete to ROBERTS, B. for 7 yards to the BYU47 (WARNER, Troy)." newcontext="V,2,3,H47">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="ROBERTS, B." gain="7"></p_pa>
+    <p_tk vh="H" name="WARNER, Troy"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="3" spot="BYU47" context="V,2,3,H47" playid="5,3,43" type="E" tokens="PEN:V,FS,A,TM,V48,N"
+      text="PENALTY USU false start 5 yards to the USU48." newcontext="V,2,8,V48">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="H47" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="2" togo="8" spot="USU48" context="V,2,8,V48" playid="5,4,44" type="R" tokens="RUSH:21,V48, TACK:38"
+      text="HUNT, Lajuan rush for no gain to the USU48 (PAU'U, Butch)." newcontext="V,3,8,V48">
+    <p_ru vh="V" name="HUNT, Lajuan" gain="0"></p_ru>
+    <p_tk vh="H" name="PAU'U, Butch"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="8" spot="USU48" context="V,3,8,V48" playid="5,5,45" type="P" tokens="PASS:2,I,9,* QBH:H,16"
+      text="MYERS, Kent pass incomplete to LEWIS, Rayshad, QB hurry by LANGI, Harvey." newcontext="V,4,8,V48">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="LEWIS, Rayshad"></p_pa>
+    <p_qbh vh="H" name="LANGI, Harvey"></p_qbh>
+   </play>
+   <play hasball="USU" down="4" togo="8" spot="USU48" context="V,4,8,V48" playid="5,6,46" type="U" tokens="PUNT:89,H10 FC:23"
+      text="DALTON, Aaron punt 42 yards to the BYU10, fair catch by JUERGENS, Garre." newcontext="H,1,10,H10">
+    <p_pu vh="V" name="DALTON, Aaron" gain="42" in20="Y" fc="JUERGENS, Garre"></p_pu>
+   </play>
+   <drivesum plays="3" yards="2" top="1:38" driveindex="5" complete="Y"></drivesum>
+   <drivestart poss="H,H10,01:27" vh="H" spot="H10" clock="01:27" driveindex="6,46"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU10" context="H,1,10,H10" playid="6,1,47" clock="01:27" tokens="{DRIVE}:01:27"
+      text="BYU drive start at 01:27." newcontext="H,1,10,H10">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU10" context="H,1,10,H10" playid="6,2,48" type="R" first="R" tokens="RUSH:21,H25, TACK:16"
+      text="WILLIAMS, Jamaa rush for 15 yards to the BYU25, 1ST DOWN BYU (WILLIAMS, A.)." newcontext="H,1,10,H25">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="15"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU25" context="H,1,10,H25" playid="6,3,49" type="R" first="R" tokens="RUSH:21,H37, TACK:19"
+      text="WILLIAMS, Jamaa rush for 12 yards to the BYU37, 1ST DOWN BYU (TOGIAI, Ian)." newcontext="H,1,10,H37">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="12"></p_ru>
+    <p_tk vh="V" name="TOGIAI, Ian"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU37" context="H,1,10,H37" playid="6,4,50" type="P" first="P" tokens="PASS:7Q,C,5,V28 TACK:20"
+      text="HILL, Taysom pass complete to KURTZ, Nick for 35 yards to the USU28, 1ST DOWN BYU (CARMEN, Brock)." newcontext="H,1,10,V28">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="KURTZ, Nick" gain="35"></p_pa>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <score qtr="1" V="3" H="0"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="USU">
+    <firstdowns no="6" rush="2" pass="3" penalty="1"></firstdowns>
+    <penalties no="3" yds="15"></penalties>
+    <conversions thirdconv="3" thirdatt="6" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="10:12"></misc>
+    <rush att="12" yds="42" gain="47" loss="5" td="0" long="17"></rush>
+    <pass comp="5" att="8" int="0" yds="45" td="0" long="12" sacks="1" sackyds="5"></pass>
+    <rcv no="5" yds="45" td="0" long="12"></rcv>
+    <punt no="1" yds="42" long="42" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="42.0"></punt>
+    <ko no="1" yds="60" ob="0" tb="0"></ko>
+    <fg made="1" att="2" long="28" blkd="0"></fg>
+    <defense tackua="10" tacka="0" tot_tack="10" tflua="1" tfla="0" tflyds="1" sacks="1" sackyds="1" int="1" intyds="7"></defense>
+    <ir no="1" yds="7" td="0" long="7"></ir>
+    <scoring fg="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BYU">
+    <firstdowns no="4" rush="3" pass="1" penalty="0"></firstdowns>
+    <penalties no="3" yds="25"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="04:48"></misc>
+    <rush att="7" yds="48" gain="49" loss="1" td="0" long="15"></rush>
+    <pass comp="2" att="4" int="1" yds="40" td="0" long="35" sacks="1" sackyds="1"></pass>
+    <rcv no="2" yds="40" td="0" long="35"></rcv>
+    <punt no="1" yds="39" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.0"></punt>
+    <ko no="1" yds="65" ob="0" tb="1"></ko>
+    <defense tackua="13" tacka="10" tot_tack="23" tflua="1" tfla="0" tflyds="5" sacks="1" sackyds="5" brup="1" qbh="1"></defense>
+    <kr no="1" yds="16" td="0" long="16"></kr>
+   </qtrsummary>
+  </qtr>
+  <qtr number="2" text="2nd">
+   <play hasball="BYU" down="1" togo="10" spot="USU28" context="H,1,10,V28" playid="6,5,51" type="#" clock="15:00" tokens="Q:2 T:15:00"
+      text="Start of 2nd quarter, clock 15:00." newcontext="H,1,10,V28">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU28" context="H,1,10,V28" playid="6,6,52" type="R" tokens="RUSH:21,V20, TACK:23,8"
+      text="WILLIAMS, Jamaa rush for 8 yards to the USU20 (FERGUSON, Gaje;BAILEY, Wesley)." newcontext="H,2,2,V20">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="8"></p_ru>
+    <p_tk vh="V" name="FERGUSON, Gaje" assist="Y"></p_tk>
+    <p_tk vh="V" name="BAILEY, Wesley" assist="Y"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="2" spot="USU20" context="H,2,2,V20" playid="6,7,53" type="R" tokens="RUSH:21,V23, TACK:95"
+      text="WILLIAMS, Jamaa rush for loss of 3 yards to the USU23 (ALI'IFUA, Ricky)." newcontext="H,3,5,V23">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="-3"></p_ru>
+    <p_tk vh="V" name="ALI'IFUA, Ricky"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="5" spot="USU23" context="H,3,5,V23" playid="6,8,54" type="E" first="E" tokens="PASS:7Q,I,1,* PEN:V,PI,A,TM,V08,1 NOPLAY:"
+      text="HILL, Taysom pass incomplete to LAULU-PUTUTAU,M, PENALTY USU pass interference 15 yards to the USU8, 1ST DOWN BYU, NO PLAY." newcontext="H,1,0,V08">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V23" yards="15"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU08" context="H,1,0,V08" playid="6,9,55" type="R" tokens="RUSH:21,V11,"
+      text="WILLIAMS, Jamaa rush for loss of 3 yards to the USU11." newcontext="H,2,0,V11">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="-3"></p_ru>
+   </play>
+   <play hasball="BYU" down="2" togo="0" spot="USU11" context="H,2,0,V11" playid="6,10,56" type="P" tokens="PASS:7Q,I,3,*"
+      text="HILL, Taysom pass incomplete to PEARSON, Colby." newcontext="H,3,0,V11">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="PEARSON, Colby"></p_pa>
+   </play>
+   <play hasball="BYU" down="3" togo="0" spot="USU11" context="H,3,0,V11" playid="6,11,57" type="E" first="E" tokens="PASS:7Q,I,3,* PEN:V,PI,A,TM,V02,1 NOPLAY:"
+      text="HILL, Taysom pass incomplete to PEARSON, Colby, PENALTY USU pass interference 9 yards to the USU2, 1ST DOWN BYU, NO PLAY." newcontext="H,1,0,V02">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V11" yards="9"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU02" context="H,1,0,V02" playid="6,12,58" type="R" score="Y" vscore="3" hscore="6" clock="12:35" tokens="RUSH:21,V00, T:12:35"
+      text="WILLIAMS, Jamaa rush for 2 yards to the USU0, TOUCHDOWN, clock 12:35." newcontext="H,1,0,V03">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="2"></p_ru>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU03" context="H,1,0,V03" playid="6,13,59" type="X" score="Y" vscore="3" hscore="7" tokens="PAT:K,26,G"
+      text="ALMOND, Rhett kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="ALMOND, Rhett" qb="ALMOND, Rhett" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <drivesum plays="8" yards="90" top="1:27" driveindex="6" complete="Y"></drivesum>
+   <play hasball="BYU" down="1" togo="0" spot="BYU35" context="H,1,0,H35" playid="6,14,60" type="K" tokens="KO:1G,V12 RET:3,V36 TACK:2"
+      text="EDWARDS, Corey kickoff 53 yards to the USU12, ELLISON, M. return 24 yards to the USU36 (HADLEY, Matt)." newcontext="V,1,10,V36">
+    <p_ko vh="H" name="EDWARDS, Corey" gain="53"></p_ko>
+    <p_kr vh="V" name="ELLISON, M." gain="24"></p_kr>
+    <p_tk vh="H" name="HADLEY, Matt"></p_tk>
+   </play>
+   <drivestart poss="V,V36,12:29" vh="V" spot="V36" clock="12:29" driveindex="7,60"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU36" context="V,1,10,V36" playid="7,1,61" clock="12:29" tokens="{DRIVE}:12:29"
+      text="UTAH STATE drive start at 12:29." newcontext="V,1,10,V36">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU36" context="V,1,10,V36" playid="7,2,62" type="R" first="R" tokens="RUSH:4,H48, TACK:7"
+      text="LINDSEY, Tonny rush for 16 yards to the BYU48, 1ST DOWN USU (HANNEMANN, Mica)." newcontext="V,1,10,H48">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="16"></p_ru>
+    <p_tk vh="H" name="HANNEMANN, Mica"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU48" context="V,1,10,H48" playid="7,3,63" type="P" tokens="PASS:2,I,5,*"
+      text="MYERS, Kent pass incomplete to COLSTON-GREEN." newcontext="V,2,10,H48">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="COLSTON-GREEN"></p_pa>
+   </play>
+   <play hasball="USU" down="2" togo="10" spot="BYU48" context="V,2,10,H48" playid="7,4,64" type="R" tokens="RUSH:4,H46, TACK:92"
+      text="LINDSEY, Tonny rush for 2 yards to the BYU46 (TANIELU, Handso)." newcontext="V,3,8,H46">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="2"></p_ru>
+    <p_tk vh="H" name="TANIELU, Handso"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="8" spot="BYU46" context="V,3,8,H46" playid="7,5,65" type="R" tokens="RUSH:2,H45, TACK:4"
+      text="MYERS, Kent rush for 1 yard to the BYU45 (WARNER, Fred)." newcontext="V,4,7,H45">
+    <p_ru vh="V" name="MYERS, Kent" gain="1"></p_ru>
+    <p_tk vh="H" name="WARNER, Fred"></p_tk>
+   </play>
+   <play hasball="USU" down="4" togo="7" spot="BYU45" context="V,4,7,H45" playid="7,6,66" type="U" tokens="PUNT:89,H14 DN:"
+      text="DALTON, Aaron punt 31 yards to the BYU14, downed." newcontext="H,1,10,H14">
+    <p_pu vh="V" name="DALTON, Aaron" gain="31" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="4" yards="19" top="0:00" driveindex="7" complete="Y"></drivesum>
+   <drivestart poss="H,H14,10:51" vh="H" spot="H14" clock="10:51" driveindex="8,66"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU14" context="H,1,10,H14" playid="8,1,67" clock="10:51" tokens="{DRIVE}:10:51"
+      text="BYU drive start at 10:51." newcontext="H,1,10,H14">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU14" context="H,1,10,H14" playid="8,2,68" type="R" tokens="RUSH:22,H15, TACK:19"
+      text="CANADA, Squally rush for 1 yard to the BYU15 (TOGIAI, Ian)." newcontext="H,2,9,H15">
+    <p_ru vh="H" name="CANADA, Squally" gain="1"></p_ru>
+    <p_tk vh="V" name="TOGIAI, Ian"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="9" spot="BYU15" context="H,2,9,H15" playid="8,3,69" type="P" tokens="PASS:7Q,C,5,H20 TACK:8"
+      text="HILL, Taysom pass complete to KURTZ, Nick for 5 yards to the BYU20 (BAILEY, Wesley)." newcontext="H,3,4,H20">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="KURTZ, Nick" gain="5"></p_pa>
+    <p_tk vh="V" name="BAILEY, Wesley"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="BYU20" context="H,3,4,H20" playid="8,4,70" type="P" first="P" tokens="PASS:7Q,C,5,H26 TACK:8"
+      text="HILL, Taysom pass complete to KURTZ, Nick for 6 yards to the BYU26, 1ST DOWN BYU (BAILEY, Wesley)." newcontext="H,1,10,H26">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="KURTZ, Nick" gain="6"></p_pa>
+    <p_tk vh="V" name="BAILEY, Wesley"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU26" context="H,1,10,H26" playid="8,5,71" type="R" tokens="RUSH:22,H30, TACK:96"
+      text="CANADA, Squally rush for 4 yards to the BYU30 ('UNGA, C.)." newcontext="H,2,6,H30">
+    <p_ru vh="H" name="CANADA, Squally" gain="4"></p_ru>
+    <p_tk vh="V" name="'UNGA, C."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="6" spot="BYU30" context="H,2,6,H30" playid="8,6,72" type="P" tokens="PASS:7Q,C,89,H33 TACK:20"
+      text="HILL, Taysom pass complete to BALDERREE, Tann for 3 yards to the BYU33 (CARMEN, Brock)." newcontext="H,3,3,H33">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="BALDERREE, Tann" gain="3"></p_pa>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="3" spot="BYU33" context="H,3,3,H33" playid="8,7,73" type="E" first="E" tokens="RUSH:7Q,H33, TACK:20 PEN:V,OS,A,TM,H38,N NOPLAY:"
+      text="HILL, Taysom rush for no gain to the BYU33 (CARMEN, Brock), PENALTY USU offside 5 yards to the BYU38, 1ST DOWN BYU, NO PLAY." newcontext="H,1,10,H38">
+    <p_pn vh="V" code="OS" type="offside" result="ACCEPT" at="H33" yards="5"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU38" context="H,1,10,H38" playid="8,8,74" type="P" first="P" tokens="PASS:7Q,C,23,H50 TACK:13"
+      text="HILL, Taysom pass complete to JUERGENS, Garre for 12 yards to the 50 yardline, 1ST DOWN BYU (DAVIS, Jalen)." newcontext="H,1,10,H50">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="JUERGENS, Garre" gain="12"></p_pa>
+    <p_tk vh="V" name="DAVIS, Jalen"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU50" context="H,1,10,H50" playid="8,9,75" type="R" tokens="RUSH:22,V43, TACK:20"
+      text="CANADA, Squally rush for 7 yards to the USU43 (CARMEN, Brock)." newcontext="H,2,3,V43">
+    <p_ru vh="H" name="CANADA, Squally" gain="7"></p_ru>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="3" spot="USU43" context="H,2,3,V43" playid="8,10,76" type="P" tokens="PASS:7Q,I,24,*"
+      text="HILL, Taysom pass incomplete to BROWN, Algernon." newcontext="H,3,3,V43">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="BROWN, Algernon"></p_pa>
+   </play>
+   <play hasball="BYU" down="3" togo="3" spot="USU43" context="H,3,3,V43" playid="8,11,77" type="P" tokens="PASS:7Q,I,87,* BRUP:13"
+      text="HILL, Taysom pass incomplete to JUERGENS, Mitch (DAVIS, Jalen)." newcontext="H,4,3,V43">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="JUERGENS, Mitch"></p_pa>
+    <p_bu vh="V" name="DAVIS, Jalen"></p_bu>
+   </play>
+   <play hasball="BYU" down="4" togo="3" spot="USU43" context="H,4,3,V43" playid="8,12,78" type="U" tokens="PUNT:3B,V13 FC:82"
+      text="LINEHAN, Jonny punt 30 yards to the USU13, fair catch by RODRIGUEZ, A.." newcontext="V,1,10,V13">
+    <p_pu vh="H" name="LINEHAN, Jonny" gain="30" in20="Y" fc="RODRIGUEZ, A."></p_pu>
+   </play>
+   <drivesum plays="9" yards="43" top="0:00" driveindex="8" complete="Y"></drivesum>
+   <drivestart poss="V,V13,05:38" vh="V" spot="V13" clock="05:38" driveindex="9,78"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU13" context="V,1,10,V13" playid="9,1,79" clock="05:38" tokens="{DRIVE}:05:38"
+      text="UTAH STATE drive start at 05:38." newcontext="V,1,10,V13">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU13" context="V,1,10,V13" playid="9,2,80" type="R" first="R" tokens="RUSH:2,V41, TACK:94"
+      text="MYERS, Kent rush for 28 yards to the USU41, 1ST DOWN USU (TAUSINGA, Kesni)." newcontext="V,1,10,V41">
+    <p_ru vh="V" name="MYERS, Kent" gain="28"></p_ru>
+    <p_tk vh="H" name="TAUSINGA, Kesni"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU41" context="V,1,10,V41" playid="9,3,81" type="E" tokens="PEN:V,FS,A,TM,V36,N"
+      text="PENALTY USU false start 5 yards to the USU36." newcontext="V,1,15,V36">
+    <p_pn vh="V" code="FS" type="false start" result="ACCEPT" at="V41" yards="5"></p_pn>
+   </play>
+   <play hasball="USU" down="1" togo="15" spot="USU36" context="V,1,15,V36" playid="9,4,82" type="R" tokens="RUSH:21,V40, TACK:13,50"
+      text="HUNT, Lajuan rush for 4 yards to the USU40 (BERNARD, Franci;MO'UNGA, Tevita)." newcontext="V,2,11,V40">
+    <p_ru vh="V" name="HUNT, Lajuan" gain="4"></p_ru>
+    <p_tk vh="H" name="BERNARD, Franci" assist="Y"></p_tk>
+    <p_tk vh="H" name="MO'UNGA, Tevita" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="11" spot="USU40" context="V,2,11,V40" playid="9,5,83" type="P" tokens="PASS:2,C,83,V46 TACK:12"
+      text="MYERS, Kent pass complete to HOUSTON, Wyatt for 6 yards to the USU46 (NACUA, Kai)." newcontext="V,3,5,V46">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="HOUSTON, Wyatt" gain="6"></p_pa>
+    <p_tk vh="H" name="NACUA, Kai"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="5" spot="USU46" context="V,3,5,V46" playid="9,6,84" type="P" tokens="PASS:2,C,9,V50 TACK:38"
+      text="MYERS, Kent pass complete to LEWIS, Rayshad for 4 yards to the 50 yardline (PAU'U, Butch)." newcontext="V,4,1,V50">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="LEWIS, Rayshad" gain="4"></p_pa>
+    <p_tk vh="H" name="PAU'U, Butch"></p_tk>
+   </play>
+   <play hasball="USU" down="4" togo="1" spot="USU50" context="V,4,1,V50" playid="9,7,85" type="R" score="Y" vscore="3" hscore="13" turnover="F" clock="02:50" tokens="RUSH:11,H50, FORCE:62 FUMB:H,H48,18 +:18,V00 T:02:50"
+      text="HOBBS, Damion rush for no gain to the 50 yardline, fumble forced by TAELE, Logan, fumble by HOBBS, Damion recovered by BYU SHELTON, Michae at BYU48, SHELTON, Michae for 52 yards to the USU0, TOUCHDOWN, clock 02:50." newcontext="H,1,0,V03">
+    <p_ru vh="V" name="HOBBS, Damion" gain="0"></p_ru>
+    <p_fr vh="H" name="SHELTON, Michae" gain="52"></p_fr>
+    <p_fumb vh="V" name="HOBBS, Damion" at="H48" frvh="H" frname="SHELTON, Michae"></p_fumb>
+    <p_tk vh="H" name="TAELE, Logan" ff="Y"></p_tk>
+   </play>
+   <drivesum plays="5" yards="39" top="0:00" driveindex="9" complete="Y"></drivesum>
+   <drivestart poss="H,V03,02:50" vh="H" spot="V03" clock="02:50" driveindex="10,85"></drivestart>
+   <play hasball="BYU" down="1" togo="0" spot="USU03" context="H,1,0,V03" playid="10,1,86" type="X" score="Y" vscore="3" hscore="14" tokens="PAT:K,26,G"
+      text="ALMOND, Rhett kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="ALMOND, Rhett" qb="ALMOND, Rhett" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <drivesum plays="0" yards="0" top="0:00" driveindex="10" complete="Y"></drivesum>
+   <play hasball="BYU" down="1" togo="0" spot="BYU35" context="H,1,0,H35" playid="10,2,87" type="K" tokens="KO:1G,V00 TB:"
+      text="EDWARDS, Corey kickoff 65 yards to the USU0, touchback." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="EDWARDS, Corey" gain="65" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V25,02:50" vh="V" spot="V25" clock="02:50" driveindex="11,87"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU25" context="V,1,10,V25" playid="11,1,88" clock="02:50" tokens="{DRIVE}:02:50"
+      text="UTAH STATE drive start at 02:50." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU25" context="V,1,10,V25" playid="11,2,89" type="R" tokens="RUSH:2,V26, TACK:38"
+      text="MYERS, Kent rush for 1 yard to the USU26 (PAU'U, Butch)." newcontext="V,2,9,V26">
+    <p_ru vh="V" name="MYERS, Kent" gain="1"></p_ru>
+    <p_tk vh="H" name="PAU'U, Butch"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="9" spot="USU26" context="V,2,9,V26" playid="11,3,90" type="R" tokens="RUSH:21,V26, TACK:13"
+      text="HUNT, Lajuan rush for no gain to the USU26 (BERNARD, Franci)." newcontext="V,3,9,V26">
+    <p_ru vh="V" name="HUNT, Lajuan" gain="0"></p_ru>
+    <p_tk vh="H" name="BERNARD, Franci"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="9" spot="USU26" context="V,3,9,V26" playid="11,4,91" type="P" tokens="PASS:2,I,88,* QBH:H,31"
+      text="MYERS, Kent pass incomplete to ROBERTS, B., QB hurry by TAUTU, Sae." newcontext="V,4,9,V26">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="ROBERTS, B."></p_pa>
+    <p_qbh vh="H" name="TAUTU, Sae"></p_qbh>
+   </play>
+   <play hasball="USU" down="4" togo="9" spot="USU26" context="V,4,9,V26" playid="11,5,92" type="U" tokens="PUNT:89,H18 RET:7,H36 TACK:45"
+      text="DALTON, Aaron punt 56 yards to the BYU18, HANNEMANN, Mica return 18 yards to the BYU36 (PALANGE, Joe)." newcontext="H,1,10,H36">
+    <p_pu vh="V" name="DALTON, Aaron" gain="56"></p_pu>
+    <p_pr vh="H" name="HANNEMANN, Mica" gain="18"></p_pr>
+    <p_tk vh="V" name="PALANGE, Joe"></p_tk>
+   </play>
+   <drivesum plays="3" yards="1" top="0:00" driveindex="11" complete="Y"></drivesum>
+   <drivestart poss="H,H36,01:37" vh="H" spot="H36" clock="01:37" driveindex="12,92"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU36" context="H,1,10,H36" playid="12,1,93" clock="01:37" tokens="{DRIVE}:01:37"
+      text="BYU drive start at 01:37." newcontext="H,1,10,H36">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU36" context="H,1,10,H36" playid="12,2,94" type="P" turnover="I" tokens="PASS:7Q,X,13,H43 RET:13,H06 TACK:3"
+      text="HILL, Taysom pass intercepted by DAVIS, Jalen at the BYU43, DAVIS, Jalen return 37 yards to the BYU6 (PEARSON, Colby)." newcontext="V,1,0,H06">
+    <p_pa vh="H" qb="HILL, Taysom" result="INT"></p_pa>
+    <p_ir vh="V" name="DAVIS, Jalen" at="H43" gain="37"></p_ir>
+    <p_tk vh="H" name="PEARSON, Colby"></p_tk>
+   </play>
+   <drivesum plays="1" yards="0" top="0:00" driveindex="12" complete="Y"></drivesum>
+   <drivestart poss="V,H06,01:24" vh="V" spot="H06" clock="01:24" driveindex="13,94"></drivestart>
+   <play hasball="USU" down="1" togo="0" spot="BYU06" context="V,1,0,H06" playid="13,1,95" clock="01:24" tokens="{DRIVE}:01:24"
+      text="UTAH STATE drive start at 01:24." newcontext="V,1,0,H06">
+   </play>
+   <play hasball="USU" down="1" togo="0" spot="BYU06" context="V,1,0,H06" playid="13,2,96" type="E" tokens="PEN:H,PF,A,TM,H03,N"
+      text="PENALTY BYU personal foul 3 yards to the BYU3." newcontext="V,1,0,H03">
+    <p_pn vh="H" code="PF" type="personal foul" result="ACCEPT" at="H06" yards="3"></p_pn>
+   </play>
+   <play hasball="USU" down="1" togo="0" spot="BYU03" context="V,1,0,H03" playid="13,3,97" type="R" tokens="RUSH:4,H02, TACK:90"
+      text="LINDSEY, Tonny rush for 1 yard to the BYU2 (KAUFUSI, Corbin)." newcontext="V,2,0,H02">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="1"></p_ru>
+    <p_tk vh="H" name="KAUFUSI, Corbin"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="0" spot="BYU02" context="V,2,0,H02" playid="13,4,98" type="R" score="Y" vscore="9" hscore="14" clock="00:42" tokens="RUSH:11,H00, T:00:42"
+      text="HOBBS, Damion rush for 2 yards to the BYU0, TOUCHDOWN, clock 00:42." newcontext="V,1,0,H03">
+    <p_ru vh="V" name="HOBBS, Damion" gain="2"></p_ru>
+   </play>
+   <play hasball="USU" down="1" togo="0" spot="BYU03" context="V,1,0,H03" playid="13,5,99" type="X" score="Y" vscore="10" hscore="14" tokens="PAT:K,63,G"
+      text="WARREN, Brock kick attempt good." newcontext="V,1,0,V35">
+    <p_pat vh="V" name="WARREN, Brock" qb="WARREN, Brock" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <drivesum plays="2" yards="6" top="0:00" driveindex="13" complete="Y"></drivesum>
+   <play hasball="USU" down="1" togo="0" spot="USU35" context="V,1,0,V35" playid="13,6,100" type="K" tokens="KO:36,H02 RET:88,H05"
+      text="THOMPSON, Jake kickoff 63 yards to the BYU2, HIFO, Aleva return 3 yards to the BYU5." newcontext="H,1,10,H05">
+    <p_ko vh="V" name="THOMPSON, Jake" gain="63"></p_ko>
+    <p_kr vh="H" name="HIFO, Aleva" gain="3"></p_kr>
+   </play>
+   <drivestart poss="H,H05,00:39" vh="H" spot="H05" clock="00:39" driveindex="14,100"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU05" context="H,1,10,H05" playid="14,1,101" clock="00:39" tokens="{DRIVE}:00:39"
+      text="BYU drive start at 00:39." newcontext="H,1,10,H05">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU05" context="H,1,10,H05" playid="14,2,102" type="R" tokens="RUSH:TM,H03,"
+      text="TEAM rush for loss of 2 yards to the BYU3." newcontext="H,2,12,H03">
+    <p_ru vh="H" name="TEAM" gain="-2"></p_ru>
+   </play>
+   <play hasball="BYU" down="2" togo="12" spot="BYU03" context="H,2,12,H03" playid="14,3,103" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of half, clock 00:00." newcontext="H,2,12,H03">
+   </play>
+   <drivesum plays="1" yards="-2" top="0:00" driveindex="14" complete="Y"></drivesum>
+   <score qtr="2" V="10" H="14"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="USU">
+    <firstdowns no="2" rush="2" pass="0" penalty="0"></firstdowns>
+    <penalties no="4" yds="34"></penalties>
+    <conversions thirdconv="0" thirdatt="3" fourthconv="0" fourthatt="1"></conversions>
+    <fumbles no="1" lost="1"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="10" yds="57" gain="57" loss="0" td="1" long="11"></rush>
+    <pass comp="2" att="4" int="0" yds="10" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="2" yds="10" td="0" long="0"></rcv>
+    <punt no="2" yds="87" long="14" blkd="0" tb="0" fc="0" plus50="1" inside20="1" avg="43.5"></punt>
+    <ko no="1" yds="63" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="9" tacka="2" tot_tack="11" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" brup="1" int="1" intyds="37"></defense>
+    <kr no="1" yds="24" td="0" long="24"></kr>
+    <ir no="1" yds="37" td="0" long="30"></ir>
+    <fumbles no="1" lost="1"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BYU">
+    <firstdowns no="5" rush="0" pass="2" penalty="3"></firstdowns>
+    <penalties no="1" yds="3"></penalties>
+    <conversions thirdconv="1" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="0" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="8" yds="14" gain="22" loss="8" td="1" long="0"></rush>
+    <pass comp="4" att="8" int="1" yds="26" td="0" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="26" td="0" long="0"></rcv>
+    <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="1" plus50="0" inside20="1" avg="30.0"></punt>
+    <ko no="2" yds="118" ob="0" tb="1"></ko>
+    <pat kickatt="2" kickmade="2"></pat>
+    <defense tackua="12" tacka="2" tot_tack="14" sacks="0" sackyds="0" qbh="1" ff="1" fr="1" fryds="52"></defense>
+    <kr no="1" yds="3" td="0" long="0"></kr>
+    <pr no="1" yds="18" td="0" long="18"></pr>
+    <fr no="1" yds="52" td="1" long="52"></fr>
+    <scoring td="2" patkick="2"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="3" text="3rd">
+   <play hasball="BYU" down="2" togo="12" spot="BYU03" context="H,2,12,H03" playid="14,4,104" type="#" clock="15:00" tokens="Q:3 T:15:00"
+      text="Start of 3rd quarter, clock 15:00." newcontext="H,2,12,H03">
+   </play>
+   <play hasball="BYU" down="2" togo="12" spot="BYU03" context="H,2,12,H03" playid="14,5,105" type="#" clock="15:00" tokens="T:15:00"
+      text="Clock 15:00." newcontext="H,2,12,H03">
+   </play>
+   <play hasball="BYU" down="2" togo="12" spot="BYU03" context="H,2,12,H03" playid="14,6,106" tokens="SPOT:V,V35,N"
+      text="USU ball on USU35." newcontext="V,2,12,V35">
+   </play>
+   <play hasball="USU" down="2" togo="12" spot="USU35" context="V,2,12,V35" playid="14,7,107" type="K" tokens="KO:36,H00 RET:88,H24 TACK:23"
+      text="THOMPSON, Jake kickoff 65 yards to the BYU0, HIFO, Aleva return 24 yards to the BYU24 (FERGUSON, Gaje)." newcontext="H,1,10,H24">
+    <p_ko vh="V" name="THOMPSON, Jake" gain="65"></p_ko>
+    <p_kr vh="H" name="HIFO, Aleva" gain="24"></p_kr>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <drivestart poss="H,H24,14:52" vh="H" spot="H24" clock="14:52" driveindex="15,107"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU24" context="H,1,10,H24" playid="15,1,108" clock="14:52" tokens="{DRIVE}:14:52"
+      text="BYU drive start at 14:52." newcontext="H,1,10,H24">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU24" context="H,1,10,H24" playid="15,2,109" type="R" first="R" tokens="RUSH:21,H47, TACK:23"
+      text="WILLIAMS, Jamaa rush for 23 yards to the BYU47, 1ST DOWN BYU (FERGUSON, Gaje)." newcontext="H,1,10,H47">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="23"></p_ru>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU47" context="H,1,10,H47" playid="15,3,110" type="E" tokens="PEN:H,PF,A,TM,H32,N"
+      text="PENALTY BYU personal foul 15 yards to the BYU32." newcontext="H,1,25,H32">
+    <p_pn vh="H" code="PF" type="personal foul" result="ACCEPT" at="H47" yards="15"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="25" spot="BYU32" context="H,1,25,H32" playid="15,4,111" tokens="D:1,10"
+      text="1st and 10." newcontext="H,1,10,H32">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU32" context="H,1,10,H32" playid="15,5,112" type="R" tokens="RUSH:21,H35, TACK:21"
+      text="WILLIAMS, Jamaa rush for 3 yards to the BYU35 (HUNT, Lajuan)." newcontext="H,2,7,H35">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="3"></p_ru>
+    <p_tk vh="V" name="HUNT, Lajuan"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="7" spot="BYU35" context="H,2,7,H35" playid="15,6,113" type="R" tokens="RUSH:7Q,H38, TACK:70"
+      text="HILL, Taysom rush for 3 yards to the BYU38 (SEEFELDT, T.)." newcontext="H,3,4,H38">
+    <p_ru vh="H" name="HILL, Taysom" gain="3"></p_ru>
+    <p_tk vh="V" name="SEEFELDT, T."></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="BYU38" context="H,3,4,H38" playid="15,7,114" type="R" first="R" tokens="RUSH:21,V45, TACK:16"
+      text="WILLIAMS, Jamaa rush for 17 yards to the USU45, 1ST DOWN BYU (WILLIAMS, A.)." newcontext="H,1,10,V45">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="17"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU45" context="H,1,10,V45" playid="15,8,115" type="R" tokens="RUSH:22,V44, TACK:16"
+      text="CANADA, Squally rush for 1 yard to the USU44 (WILLIAMS, A.)." newcontext="H,2,9,V44">
+    <p_ru vh="H" name="CANADA, Squally" gain="1"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="9" spot="USU44" context="H,2,9,V44" playid="15,9,116" type="P" first="P" tokens="PASS:7Q,C,1,V29 TACK:49"
+      text="HILL, Taysom pass complete to LAULU-PUTUTAU,M for 15 yards to the USU29, 1ST DOWN BYU (LARSEN, Derek)." newcontext="H,1,10,V29">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="LAULU-PUTUTAU,M" gain="15"></p_pa>
+    <p_tk vh="V" name="LARSEN, Derek"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU29" context="H,1,10,V29" playid="15,10,117" type="R" tokens="RUSH:7Q,V36, FUMB:H,V36,7Q"
+      text="HILL, Taysom rush for loss of 7 yards to the USU36, fumble by HILL, Taysom recovered by BYU HILL, Taysom at USU36." newcontext="H,2,17,V36">
+    <p_ru vh="H" name="HILL, Taysom" gain="-7"></p_ru>
+    <p_fumb vh="H" name="HILL, Taysom" at="V36" frvh="H" frname="HILL, Taysom"></p_fumb>
+   </play>
+   <play hasball="BYU" down="2" togo="17" spot="USU36" context="H,2,17,V36" playid="15,11,118" type="E" tokens="PASS:7Q,C,87,V36 TACK:37 PEN:H,HO,A,TM,V46,N NOPLAY:"
+      text="HILL, Taysom pass complete to JUERGENS, Mitch for no gain to the USU36 (CENTERS, Devin), PENALTY BYU holding 10 yards to the USU46, NO PLAY." newcontext="H,2,27,V46">
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V36" yards="10"></p_pn>
+   </play>
+   <play hasball="BYU" down="2" togo="27" spot="USU46" context="H,2,27,V46" playid="15,12,119" type="P" tokens="PASS:7Q,I,20,* QBH:V,95"
+      text="HILL, Taysom pass incomplete to HALL, KJ, QB hurry by ALI'IFUA, Ricky." newcontext="H,3,27,V46">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="HALL, KJ"></p_pa>
+    <p_qbh vh="V" name="ALI'IFUA, Ricky"></p_qbh>
+   </play>
+   <play hasball="BYU" down="3" togo="27" spot="USU46" context="H,3,27,V46" playid="15,13,120" type="P" tokens="PASS:7Q,I,5,*"
+      text="HILL, Taysom pass incomplete to KURTZ, Nick." newcontext="H,4,27,V46">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="KURTZ, Nick"></p_pa>
+   </play>
+   <play hasball="BYU" down="4" togo="27" spot="USU46" context="H,4,27,V46" playid="15,14,121" type="U" tokens="PUNT:3B,V01 DN:"
+      text="LINEHAN, Jonny punt 45 yards to the USU1, downed." newcontext="V,1,10,V01">
+    <p_pu vh="H" name="LINEHAN, Jonny" gain="45" in20="Y"></p_pu>
+   </play>
+   <drivesum plays="9" yards="30" top="0:00" driveindex="15" complete="Y"></drivesum>
+   <drivestart poss="V,V01,11:27" vh="V" spot="V01" clock="11:27" driveindex="16,121"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU01" context="V,1,10,V01" playid="16,1,122" clock="11:27" tokens="{DRIVE}:11:27"
+      text="UTAH STATE drive start at 11:27." newcontext="V,1,10,V01">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU01" context="V,1,10,V01" playid="16,2,123" type="R" tokens="RUSH:4,V04, TACK:62,4"
+      text="LINDSEY, Tonny rush for 3 yards to the USU4 (TAELE, Logan;WARNER, Fred)." newcontext="V,2,7,V04">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="3"></p_ru>
+    <p_tk vh="H" name="TAELE, Logan" assist="Y"></p_tk>
+    <p_tk vh="H" name="WARNER, Fred" assist="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="7" spot="USU04" context="V,2,7,V04" playid="16,3,124" type="P" first="P" tokens="PASS:2,C,82,V18 OB: TACK:31"
+      text="MYERS, Kent pass complete to RODRIGUEZ, A. for 14 yards to the USU18, 1ST DOWN USU, out-of-bounds (TAUTU, Sae)." ob="Y" newcontext="V,1,10,V18">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="RODRIGUEZ, A." gain="14"></p_pa>
+    <p_tk vh="H" name="TAUTU, Sae"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU18" context="V,1,10,V18" playid="16,4,125" type="P" first="P" tokens="PASS:2,C,83,V34 TACK:12"
+      text="MYERS, Kent pass complete to HOUSTON, Wyatt for 16 yards to the USU34, 1ST DOWN USU (NACUA, Kai)." newcontext="V,1,10,V34">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="HOUSTON, Wyatt" gain="16"></p_pa>
+    <p_tk vh="H" name="NACUA, Kai"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU34" context="V,1,10,V34" playid="16,5,126" type="P" tokens="PASS:2,C,88,V43 TACK:13"
+      text="MYERS, Kent pass complete to ROBERTS, B. for 9 yards to the USU43 (BERNARD, Franci)." newcontext="V,2,1,V43">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="ROBERTS, B." gain="9"></p_pa>
+    <p_tk vh="H" name="BERNARD, Franci"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="1" spot="USU43" context="V,2,1,V43" playid="16,6,127" type="P" first="P" tokens="PASS:2,C,9,H48 TACK:16"
+      text="MYERS, Kent pass complete to LEWIS, Rayshad for 9 yards to the BYU48, 1ST DOWN USU (LANGI, Harvey)." newcontext="V,1,10,H48">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="LEWIS, Rayshad" gain="9"></p_pa>
+    <p_tk vh="H" name="LANGI, Harvey"></p_tk>
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="BYU48" context="V,1,10,H48" playid="16,7,128" type="P" tokens="PASS:2,C,9,H48 FUMB:V,H48,9"
+      text="MYERS, Kent pass complete to LEWIS, Rayshad for no gain to the BYU48, fumble by LEWIS, Rayshad recovered by USU LEWIS, Rayshad at BYU48." newcontext="V,2,10,H48">
+    <p_pa vh="V" qb="MYERS, Kent" result="COMP" rcv="LEWIS, Rayshad" gain="0"></p_pa>
+    <p_fumb vh="V" name="LEWIS, Rayshad" at="H48" frvh="V" frname="LEWIS, Rayshad"></p_fumb>
+   </play>
+   <play hasball="USU" down="2" togo="10" spot="BYU48" context="V,2,10,H48" playid="16,8,129" type="R" tokens="RUSH:TM,V44, FUMB:V,V44,21"
+      text="TEAM rush for loss of 8 yards to the USU44, fumble by TEAM recovered by USU HUNT, Lajuan at USU44." newcontext="V,3,18,V44">
+    <p_ru vh="V" name="TEAM" gain="-8"></p_ru>
+    <p_fumb vh="V" name="TEAM" at="V44" frvh="V" frname="HUNT, Lajuan"></p_fumb>
+   </play>
+   <play hasball="USU" down="3" togo="18" spot="USU44" context="V,3,18,V44" playid="16,9,130" type="P" tokens="PASS:2,I,82,* QBH:H,92"
+      text="MYERS, Kent pass incomplete to RODRIGUEZ, A., QB hurry by TANIELU, Handso." newcontext="V,4,18,V44">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="RODRIGUEZ, A."></p_pa>
+    <p_qbh vh="H" name="TANIELU, Handso"></p_qbh>
+   </play>
+   <play hasball="USU" down="4" togo="18" spot="USU44" context="V,4,18,V44" playid="16,10,131" type="U" tokens="PUNT:89,H21 RET:23,H25 TACK:31,37"
+      text="DALTON, Aaron punt 35 yards to the BYU21, JUERGENS, Garre return 4 yards to the BYU25 (PAINTER, Jentz;CENTERS, Devin)." newcontext="H,1,10,H25">
+    <p_pu vh="V" name="DALTON, Aaron" gain="35"></p_pu>
+    <p_pr vh="H" name="JUERGENS, Garre" gain="4"></p_pr>
+    <p_tk vh="V" name="PAINTER, Jentz" assist="Y"></p_tk>
+    <p_tk vh="V" name="CENTERS, Devin" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="8" yards="43" top="0:00" driveindex="16" complete="Y"></drivesum>
+   <drivestart poss="H,H25,07:53" vh="H" spot="H25" clock="07:53" driveindex="17,131"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU25" context="H,1,10,H25" playid="17,1,132" clock="07:53" tokens="{DRIVE}:07:53"
+      text="BYU drive start at 07:53." newcontext="H,1,10,H25">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU25" context="H,1,10,H25" playid="17,2,133" type="R" tokens="RUSH:7Q,H28, TACK:37"
+      text="HILL, Taysom rush for 3 yards to the BYU28 (CENTERS, Devin)." newcontext="H,2,7,H28">
+    <p_ru vh="H" name="HILL, Taysom" gain="3"></p_ru>
+    <p_tk vh="V" name="CENTERS, Devin"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="7" spot="BYU28" context="H,2,7,H28" playid="17,3,134" type="R" first="R" tokens="RUSH:21,H36, TACK:56,0L"
+      text="WILLIAMS, Jamaa rush for 8 yards to the BYU36, 1ST DOWN BYU (SCHUSTER, G.;LEAVITT, Dallin)." newcontext="H,1,10,H36">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="8"></p_ru>
+    <p_tk vh="V" name="SCHUSTER, G." assist="Y"></p_tk>
+    <p_tk vh="V" name="LEAVITT, Dallin" assist="Y"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU36" context="H,1,10,H36" playid="17,4,135" type="R" tokens="RUSH:7Q,H44, TACK:19"
+      text="HILL, Taysom rush for 8 yards to the BYU44 (TOGIAI, Ian)." newcontext="H,2,2,H44">
+    <p_ru vh="H" name="HILL, Taysom" gain="8"></p_ru>
+    <p_tk vh="V" name="TOGIAI, Ian"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="2" spot="BYU44" context="H,2,2,H44" playid="17,5,136" type="P" first="P" tokens="PASS:7Q,C,5,H48 TACK:13"
+      text="HILL, Taysom pass complete to KURTZ, Nick for 4 yards to the BYU48, 1ST DOWN BYU (DAVIS, Jalen)." newcontext="H,1,10,H48">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="KURTZ, Nick" gain="4"></p_pa>
+    <p_tk vh="V" name="DAVIS, Jalen"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU48" context="H,1,10,H48" playid="17,6,137" type="R" tokens="RUSH:7Q,V46, TACK:0L"
+      text="HILL, Taysom rush for 6 yards to the USU46 (LEAVITT, Dallin)." newcontext="H,2,4,V46">
+    <p_ru vh="H" name="HILL, Taysom" gain="6"></p_ru>
+    <p_tk vh="V" name="LEAVITT, Dallin"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="4" spot="USU46" context="H,2,4,V46" playid="17,7,138" type="P" tokens="PASS:7Q,I,84,*"
+      text="HILL, Taysom pass incomplete to TRINNAMAN, Jona." newcontext="H,3,4,V46">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="TRINNAMAN, Jona"></p_pa>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="USU46" context="H,3,4,V46" playid="17,8,139" type="R" first="R" tokens="RUSH:21,V39, TACK:23"
+      text="WILLIAMS, Jamaa rush for 7 yards to the USU39, 1ST DOWN BYU (FERGUSON, Gaje)." newcontext="H,1,10,V39">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="7"></p_ru>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU39" context="H,1,10,V39" playid="17,9,140" type="R" tokens="RUSH:7Q,V35, TACK:91"
+      text="HILL, Taysom rush for 4 yards to the USU35 (TAUFA, Siua)." newcontext="H,2,6,V35">
+    <p_ru vh="H" name="HILL, Taysom" gain="4"></p_ru>
+    <p_tk vh="V" name="TAUFA, Siua"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="6" spot="USU35" context="H,2,6,V35" playid="17,10,141" type="R" first="R" tokens="RUSH:7Q,V29, TACK:20"
+      text="HILL, Taysom rush for 6 yards to the USU29, 1ST DOWN BYU (CARMEN, Brock)." newcontext="H,1,10,V29">
+    <p_ru vh="H" name="HILL, Taysom" gain="6"></p_ru>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU29" context="H,1,10,V29" playid="17,11,142" type="R" tokens="RUSH:22,V26, TACK:96"
+      text="CANADA, Squally rush for 3 yards to the USU26 ('UNGA, C.)." newcontext="H,2,7,V26">
+    <p_ru vh="H" name="CANADA, Squally" gain="3"></p_ru>
+    <p_tk vh="V" name="'UNGA, C."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="7" spot="USU26" context="H,2,7,V26" playid="17,12,143" type="R" tokens="RUSH:22,V23, TACK:20"
+      text="CANADA, Squally rush for 3 yards to the USU23 (CARMEN, Brock)." newcontext="H,3,4,V23">
+    <p_ru vh="H" name="CANADA, Squally" gain="3"></p_ru>
+    <p_tk vh="V" name="CARMEN, Brock"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="USU23" context="H,3,4,V23" playid="17,13,144" type="P" tokens="PASS:7Q,I,1,*"
+      text="HILL, Taysom pass incomplete to LAULU-PUTUTAU,M." newcontext="H,4,4,V23">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="LAULU-PUTUTAU,M"></p_pa>
+   </play>
+   <play hasball="BYU" down="4" togo="4" spot="USU23" context="H,4,4,V23" playid="17,14,145" type="E" first="E" tokens="PASS:7Q,I,5,* PEN:V,PI,A,TM,V08,1 NOPLAY:"
+      text="HILL, Taysom pass incomplete to KURTZ, Nick, PENALTY USU pass interference 15 yards to the USU8, 1ST DOWN BYU, NO PLAY." newcontext="H,1,0,V08">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="V23" yards="15"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU08" context="H,1,0,V08" playid="17,15,146" type="E" tokens="RUSH:21,V03, TACK:23 PEN:H,HO,A,TM,V18,N NOPLAY:"
+      text="WILLIAMS, Jamaa rush for 5 yards to the USU3 (FERGUSON, Gaje), PENALTY BYU holding 10 yards to the USU18, NO PLAY." newcontext="H,1,0,V18">
+    <p_pn vh="H" code="HO" type="holding" result="ACCEPT" at="V08" yards="10"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU18" context="H,1,0,V18" playid="17,16,147" type="R" tokens="RUSH:21,V13, TACK:19"
+      text="WILLIAMS, Jamaa rush for 5 yards to the USU13 (TOGIAI, Ian)." newcontext="H,2,0,V13">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="5"></p_ru>
+    <p_tk vh="V" name="TOGIAI, Ian"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="0" spot="USU13" context="H,2,0,V13" playid="17,17,148" type="R" tokens="RUSH:7Q,V10, TACK:0L"
+      text="HILL, Taysom rush for 3 yards to the USU10 (LEAVITT, Dallin)." newcontext="H,3,0,V10">
+    <p_ru vh="H" name="HILL, Taysom" gain="3"></p_ru>
+    <p_tk vh="V" name="LEAVITT, Dallin"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="0" spot="USU10" context="H,3,0,V10" playid="17,18,149" type="P" score="Y" vscore="10" hscore="20" clock="02:19" tokens="PASS:7Q,C,87,V00 T:02:19"
+      text="HILL, Taysom pass complete to JUERGENS, Mitch for 10 yards to the USU0, TOUCHDOWN, clock 02:19." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="JUERGENS, Mitch" gain="10"></p_pa>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU03" context="H,1,0,V03" playid="17,19,150" type="X" score="Y" vscore="10" hscore="21" tokens="PAT:K,26,G"
+      text="ALMOND, Rhett kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="ALMOND, Rhett" qb="ALMOND, Rhett" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <drivesum plays="15" yards="75" top="0:00" driveindex="17" complete="Y"></drivesum>
+   <play hasball="BYU" down="1" togo="0" spot="BYU35" context="H,1,0,H35" playid="17,20,151" type="K" tokens="KO:1G,V01 RET:3,V21 TACK:5D"
+      text="EDWARDS, Corey kickoff 64 yards to the USU1, ELLISON, M. return 20 yards to the USU21 (LAKE, Dayan)." newcontext="V,1,10,V21">
+    <p_ko vh="H" name="EDWARDS, Corey" gain="64"></p_ko>
+    <p_kr vh="V" name="ELLISON, M." gain="20"></p_kr>
+    <p_tk vh="H" name="LAKE, Dayan"></p_tk>
+   </play>
+   <drivestart poss="V,V21,02:13" vh="V" spot="V21" clock="02:13" driveindex="18,151"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU21" context="V,1,10,V21" playid="18,1,152" clock="02:13" tokens="{DRIVE}:02:13"
+      text="UTAH STATE drive start at 02:13." newcontext="V,1,10,V21">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU21" context="V,1,10,V21" playid="18,2,153" type="R" tokens="RUSH:4,V24, TACK:4"
+      text="LINDSEY, Tonny rush for 3 yards to the USU24 (WARNER, Fred)." newcontext="V,2,7,V24">
+    <p_ru vh="V" name="LINDSEY, Tonny" gain="3"></p_ru>
+    <p_tk vh="H" name="WARNER, Fred"></p_tk>
+   </play>
+   <play hasball="USU" down="2" togo="7" spot="USU24" context="V,2,7,V24" playid="18,3,154" type="P" tokens="PASS:2,I,19,* BRUP:5D QBH:H,38"
+      text="MYERS, Kent pass incomplete to TOGIAI, Ian (LAKE, Dayan), QB hurry by PAU'U, Butch." newcontext="V,3,7,V24">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="TOGIAI, Ian"></p_pa>
+    <p_bu vh="H" name="LAKE, Dayan"></p_bu>
+    <p_qbh vh="H" name="PAU'U, Butch"></p_qbh>
+   </play>
+   <play hasball="USU" down="3" togo="7" spot="USU24" context="V,3,7,V24" playid="18,4,155" type="#" clock="01:40" tokens="TOUT:V T:01:40"
+      text="Timeout Utah State, clock 01:40." newcontext="V,3,7,V24">
+    <p_to vh="V" team="Utah State"></p_to>
+   </play>
+   <play hasball="USU" down="3" togo="7" spot="USU24" context="V,3,7,V24" playid="18,5,156" type="P" turnover="I" tokens="PASS:2,X,4,V40 RET:4,V38 TACK:9"
+      text="MYERS, Kent pass intercepted by WARNER, Fred at the USU40, WARNER, Fred return 2 yards to the USU38 (LEWIS, Rayshad)." newcontext="H,1,10,V38">
+    <p_pa vh="V" qb="MYERS, Kent" result="INT"></p_pa>
+    <p_ir vh="H" name="WARNER, Fred" at="V40" gain="2"></p_ir>
+    <p_tk vh="V" name="LEWIS, Rayshad"></p_tk>
+   </play>
+   <drivesum plays="3" yards="3" top="0:00" driveindex="18" complete="Y"></drivesum>
+   <drivestart poss="H,V38,01:28" vh="H" spot="V38" clock="01:28" driveindex="19,156"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="USU38" context="H,1,10,V38" playid="19,1,157" clock="01:28" tokens="{DRIVE}:01:28"
+      text="BYU drive start at 01:28." newcontext="H,1,10,V38">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU38" context="H,1,10,V38" playid="19,2,158" type="P" tokens="PASS:7Q,I,3,*"
+      text="HILL, Taysom pass incomplete to PEARSON, Colby." newcontext="H,2,10,V38">
+    <p_pa vh="H" qb="HILL, Taysom" result="INC" rcv="PEARSON, Colby"></p_pa>
+   </play>
+   <play hasball="BYU" down="2" togo="10" spot="USU38" context="H,2,10,V38" playid="19,3,159" type="R" tokens="RUSH:21,V35, TACK:16"
+      text="WILLIAMS, Jamaa rush for 3 yards to the USU35 (WILLIAMS, A.)." newcontext="H,3,7,V35">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="3"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="7" spot="USU35" context="H,3,7,V35" playid="19,4,160" type="P" tokens="PASS:7Q,C,3,V29 TACK:6"
+      text="HILL, Taysom pass complete to PEARSON, Colby for 6 yards to the USU29 (HANEY, Cameron)." newcontext="H,4,1,V29">
+    <p_pa vh="H" qb="HILL, Taysom" result="COMP" rcv="PEARSON, Colby" gain="6"></p_pa>
+    <p_tk vh="V" name="HANEY, Cameron"></p_tk>
+   </play>
+   <play hasball="BYU" down="4" togo="1" spot="USU29" context="H,4,1,V29" playid="19,5,161" type="R" first="R" tokens="RUSH:21,V14, TACK:0L"
+      text="WILLIAMS, Jamaa rush for 15 yards to the USU14, 1ST DOWN BYU (LEAVITT, Dallin)." newcontext="H,1,10,V14">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="15"></p_ru>
+    <p_tk vh="V" name="LEAVITT, Dallin"></p_tk>
+   </play>
+   <score qtr="3" V="10" H="21"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="USU">
+    <firstdowns no="3" rush="0" pass="3" penalty="0"></firstdowns>
+    <penalties no="1" yds="15"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="2" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="3" yds="-2" gain="6" loss="8" td="0" long="0"></rush>
+    <pass comp="5" att="8" int="1" yds="48" td="0" long="4" sacks="0" sackyds="0"></pass>
+    <rcv no="5" yds="48" td="0" long="4"></rcv>
+    <punt no="1" yds="35" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="35.0"></punt>
+    <ko no="1" yds="65" ob="0" tb="0"></ko>
+    <defense tackua="22" tacka="4" tot_tack="26" sacks="0" sackyds="0" qbh="1"></defense>
+    <kr no="1" yds="20" td="0" long="0"></kr>
+    <fumbles no="2" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BYU">
+    <firstdowns no="9" rush="6" pass="2" penalty="1"></firstdowns>
+    <penalties no="3" yds="35"></penalties>
+    <conversions thirdconv="3" thirdatt="5" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="19" yds="114" gain="121" loss="7" td="0" long="8"></rush>
+    <pass comp="4" att="9" int="0" yds="35" td="1" long="0" sacks="0" sackyds="0"></pass>
+    <rcv no="4" yds="35" td="1" long="0"></rcv>
+    <punt no="1" yds="45" long="6" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="45.0"></punt>
+    <ko no="1" yds="64" ob="0" tb="0"></ko>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="6" tacka="2" tot_tack="8" sacks="0" sackyds="0" brup="1" qbh="2" int="1" intyds="2"></defense>
+    <kr no="1" yds="24" td="0" long="8"></kr>
+    <pr no="1" yds="4" td="0" long="0"></pr>
+    <ir no="1" yds="2" td="0" long="2"></ir>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <qtr number="4" text="4th">
+   <play hasball="BYU" down="1" togo="10" spot="USU14" context="H,1,10,V14" playid="19,6,162" type="#" clock="15:00" tokens="Q:4 T:15:00"
+      text="Start of 4th quarter, clock 15:00." newcontext="H,1,10,V14">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU14" context="H,1,10,V14" playid="19,7,163" type="R" tokens="RUSH:7Q,V13, TACK:51"
+      text="HILL, Taysom rush for 1 yard to the USU13 (TE'I, Justus)." newcontext="H,2,9,V13">
+    <p_ru vh="H" name="HILL, Taysom" gain="1"></p_ru>
+    <p_tk vh="V" name="TE'I, Justus"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="9" spot="USU13" context="H,2,9,V13" playid="19,8,164" type="R" first="R" tokens="RUSH:7Q,V01, TACK:23"
+      text="HILL, Taysom rush for 12 yards to the USU1, 1ST DOWN BYU (FERGUSON, Gaje)." newcontext="H,1,0,V01">
+    <p_ru vh="H" name="HILL, Taysom" gain="12"></p_ru>
+    <p_tk vh="V" name="FERGUSON, Gaje"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU01" context="H,1,0,V01" playid="19,9,165" type="R" tokens="RUSH:1C,V05, FUMB:H,V05,1C"
+      text="MANGUM, Tanner rush for loss of 4 yards to the USU5, fumble by MANGUM, Tanner recovered by BYU MANGUM, Tanner at USU5." newcontext="H,2,0,V05">
+    <p_ru vh="H" name="MANGUM, Tanner" gain="-4"></p_ru>
+    <p_fumb vh="H" name="MANGUM, Tanner" at="V05" frvh="H" frname="MANGUM, Tanner"></p_fumb>
+   </play>
+   <play hasball="BYU" down="2" togo="0" spot="USU05" context="H,2,0,V05" playid="19,10,166" type="E" tokens="PEN:H,FS,A,TM,V10,N"
+      text="PENALTY BYU false start 5 yards to the USU10." newcontext="H,2,0,V10">
+    <p_pn vh="H" code="FS" type="false start" result="ACCEPT" at="V05" yards="5"></p_pn>
+   </play>
+   <play hasball="BYU" down="2" togo="0" spot="USU10" context="H,2,0,V10" playid="19,11,167" type="R" tokens="RUSH:21,V05, TACK:16"
+      text="WILLIAMS, Jamaa rush for 5 yards to the USU5 (WILLIAMS, A.)." newcontext="H,3,0,V05">
+    <p_ru vh="H" name="WILLIAMS, Jamaa" gain="5"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="0" spot="USU05" context="H,3,0,V05" playid="19,12,168" type="P" score="Y" vscore="10" hscore="27" clock="12:55" tokens="PASS:1C,C,3,V00 T:12:55"
+      text="MANGUM, Tanner pass complete to PEARSON, Colby for 5 yards to the USU0, TOUCHDOWN, clock 12:55." newcontext="H,1,0,V03">
+    <p_pa vh="H" qb="MANGUM, Tanner" result="COMP" rcv="PEARSON, Colby" gain="5"></p_pa>
+   </play>
+   <play hasball="BYU" down="1" togo="0" spot="USU03" context="H,1,0,V03" playid="19,13,169" type="X" score="Y" vscore="10" hscore="28" tokens="PAT:K,26,G"
+      text="ALMOND, Rhett kick attempt good." newcontext="H,1,0,H35">
+    <p_pat vh="H" name="ALMOND, Rhett" qb="ALMOND, Rhett" type="K" result="GOOD" score="Y"></p_pat>
+   </play>
+   <drivesum plays="9" yards="38" top="0:00" driveindex="19" complete="Y"></drivesum>
+   <play hasball="BYU" down="1" togo="0" spot="BYU35" context="H,1,0,H35" playid="19,14,170" type="K" tokens="KO:1G,V01 TB:"
+      text="EDWARDS, Corey kickoff 64 yards to the USU1, touchback." newcontext="V,1,10,V25">
+    <p_ko vh="H" name="EDWARDS, Corey" gain="64" result="T"></p_ko>
+   </play>
+   <drivestart poss="V,V25,12:55" vh="V" spot="V25" clock="12:55" driveindex="20,170"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU25" context="V,1,10,V25" playid="20,1,171" clock="12:55" tokens="{DRIVE}:12:55"
+      text="UTAH STATE drive start at 12:55." newcontext="V,1,10,V25">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU25" context="V,1,10,V25" playid="20,2,172" type="P" tokens="PASS:2,I,9,* BRUP:62"
+      text="MYERS, Kent pass incomplete to LEWIS, Rayshad (TAELE, Logan)." newcontext="V,2,10,V25">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="LEWIS, Rayshad"></p_pa>
+    <p_bu vh="H" name="TAELE, Logan"></p_bu>
+   </play>
+   <play hasball="USU" down="2" togo="10" spot="USU25" context="V,2,10,V25" playid="20,3,173" type="R" tokens="RUSH:2,V27, FORCE:48 FUMB:V,V26,2"
+      text="MYERS, Kent rush for 2 yards to the USU27, fumble forced by LAULILE, Tomasi, fumble by MYERS, Kent recovered by USU MYERS, Kent at USU26." newcontext="V,3,9,V26">
+    <p_ru vh="V" name="MYERS, Kent" gain="2"></p_ru>
+    <p_fumb vh="V" name="MYERS, Kent" at="V26" frvh="V" frname="MYERS, Kent"></p_fumb>
+    <p_tk vh="H" name="LAULILE, Tomasi" ff="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="9" spot="USU26" context="V,3,9,V26" playid="20,4,174" type="P" tokens="PASS:2,S,TM,V20 SACK:48"
+      text="MYERS, Kent sacked for loss of 6 yards to the USU20 (LAULILE, Tomasi)." newcontext="V,4,15,V20">
+    <p_pa vh="V" qb="MYERS, Kent" result="SACK" gain="-6"></p_pa>
+    <p_tk vh="H" name="LAULILE, Tomasi" sack="Y"></p_tk>
+   </play>
+   <play hasball="USU" down="4" togo="15" spot="USU20" context="V,4,15,V20" playid="20,5,175" type="U" tokens="PUNT:89,H31 RET:23,H38 TACK:16,31"
+      text="DALTON, Aaron punt 49 yards to the BYU31, JUERGENS, Garre return 7 yards to the BYU38 (WILLIAMS, A.;PAINTER, Jentz)." newcontext="H,1,10,H38">
+    <p_pu vh="V" name="DALTON, Aaron" gain="49"></p_pu>
+    <p_pr vh="H" name="JUERGENS, Garre" gain="7"></p_pr>
+    <p_tk vh="V" name="WILLIAMS, A." assist="Y"></p_tk>
+    <p_tk vh="V" name="PAINTER, Jentz" assist="Y"></p_tk>
+   </play>
+   <drivesum plays="3" yards="-5" top="0:00" driveindex="20" complete="Y"></drivesum>
+   <drivestart poss="H,H38,11:21" vh="H" spot="H38" clock="11:21" driveindex="21,175"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU38" context="H,1,10,H38" playid="21,1,176" clock="11:21" tokens="{DRIVE}:11:21"
+      text="BYU drive start at 11:21." newcontext="H,1,10,H38">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU38" context="H,1,10,H38" playid="21,2,177" type="P" tokens="PASS:1C,S,TM,H37 SACK:19"
+      text="MANGUM, Tanner sacked for loss of 1 yard to the BYU37 (TOGIAI, Ian)." newcontext="H,2,11,H37">
+    <p_pa vh="H" qb="MANGUM, Tanner" result="SACK" gain="-1"></p_pa>
+    <p_tk vh="V" name="TOGIAI, Ian" sack="Y"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="11" spot="BYU37" context="H,2,11,H37" playid="21,3,178" type="R" tokens="RUSH:22,H42, TACK:96"
+      text="CANADA, Squally rush for 5 yards to the BYU42 ('UNGA, C.)." newcontext="H,3,6,H42">
+    <p_ru vh="H" name="CANADA, Squally" gain="5"></p_ru>
+    <p_tk vh="V" name="'UNGA, C."></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="6" spot="BYU42" context="H,3,6,H42" playid="21,4,179" type="E" first="E" clock="09:42" tokens="PASS:1C,X,20,H47 RET:20,H00 T:09:42 PEN:V,PI,A,TM,H47,1 NOPLAY:"
+      text="MANGUM, Tanner pass intercepted by CARMEN, Brock at the BYU47, CARMEN, Brock return to the BYU0, clock 09:42, PENALTY USU pass interference 5 yards to the BYU47, 1ST DOWN BYU, NO PLAY." newcontext="H,1,10,H47">
+    <p_pn vh="V" code="PI" type="pass interference" result="ACCEPT" at="H42" yards="5"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU47" context="H,1,10,H47" playid="21,5,180" type="R" tokens="RUSH:22,H48, TACK:16"
+      text="CANADA, Squally rush for 1 yard to the BYU48 (WILLIAMS, A.)." newcontext="H,2,9,H48">
+    <p_ru vh="H" name="CANADA, Squally" gain="1"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="9" spot="BYU48" context="H,2,9,H48" playid="21,6,181" type="R" first="R" tokens="RUSH:20,V39, OB: TACK:16"
+      text="HALL, KJ rush for 13 yards to the USU39, 1ST DOWN BYU, out-of-bounds (WILLIAMS, A.)." ob="Y" newcontext="H,1,10,V39">
+    <p_ru vh="H" name="HALL, KJ" gain="13"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU39" context="H,1,10,V39" playid="21,7,182" type="E" first="E" tokens="PEN:V,PF,A,TM,V24,N"
+      text="PENALTY USU personal foul 15 yards to the USU24, 1ST DOWN BYU." newcontext="H,1,10,V24">
+    <p_pn vh="V" code="PF" type="personal foul" result="ACCEPT" at="V39" yards="15"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU24" context="H,1,10,V24" playid="21,8,183" type="R" tokens="RUSH:20,V21, TACK:99"
+      text="HALL, KJ rush for 3 yards to the USU21 (UASIKE, M.)." newcontext="H,2,7,V21">
+    <p_ru vh="H" name="HALL, KJ" gain="3"></p_ru>
+    <p_tk vh="V" name="UASIKE, M."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="7" spot="USU21" context="H,2,7,V21" playid="21,9,184" type="E" first="E" tokens="PEN:V,UC,A,TM,V11,1"
+      text="PENALTY USU unsportsmanlike conduct 10 yards to the USU11, 1ST DOWN BYU." newcontext="H,1,10,V11">
+    <p_pn vh="V" code="UC" type="unsportsmanlike conduct" result="ACCEPT" at="V21" yards="10"></p_pn>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU11" context="H,1,10,V11" playid="21,10,185" type="R" tokens="RUSH:20,V05, TACK:96"
+      text="HALL, KJ rush for 6 yards to the USU5 ('UNGA, C.)." newcontext="H,2,4,V05">
+    <p_ru vh="H" name="HALL, KJ" gain="6"></p_ru>
+    <p_tk vh="V" name="'UNGA, C."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="4" spot="USU05" context="H,2,4,V05" playid="21,11,186" type="R" tokens="RUSH:20,V04, TACK:51"
+      text="HALL, KJ rush for 1 yard to the USU4 (TE'I, Justus)." newcontext="H,3,3,V04">
+    <p_ru vh="H" name="HALL, KJ" gain="1"></p_ru>
+    <p_tk vh="V" name="TE'I, Justus"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="3" spot="USU04" context="H,3,3,V04" playid="21,12,187" type="P" tokens="PASS:1C,S,TM,V11 SACK:70"
+      text="MANGUM, Tanner sacked for loss of 7 yards to the USU11 (SEEFELDT, T.)." newcontext="H,4,10,V11">
+    <p_pa vh="H" qb="MANGUM, Tanner" result="SACK" gain="-7"></p_pa>
+    <p_tk vh="V" name="SEEFELDT, T." sack="Y"></p_tk>
+   </play>
+   <play hasball="BYU" down="4" togo="10" spot="USU11" context="H,4,10,V11" playid="21,13,188" type="F" clock="05:47" tokens="FGA:26,28,M,V20,R T:05:47"
+      text="ALMOND, Rhett field goal attempt from 28 MISSED - wide right, spot at USU20, clock 05:47." newcontext="V,1,10,V20">
+    <p_fg vh="H" name="ALMOND, Rhett" distance="28" result="MISSED"></p_fg>
+   </play>
+   <drivesum plays="9" yards="51" top="0:00" driveindex="21" complete="Y"></drivesum>
+   <drivestart poss="V,V20,05:47" vh="V" spot="V20" clock="05:47" driveindex="22,188"></drivestart>
+   <play hasball="USU" down="1" togo="10" spot="USU20" context="V,1,10,V20" playid="22,1,189" clock="05:47" tokens="{DRIVE}:05:47"
+      text="UTAH STATE drive start at 05:47." newcontext="V,1,10,V20">
+   </play>
+   <play hasball="USU" down="1" togo="10" spot="USU20" context="V,1,10,V20" playid="22,2,190" type="P" tokens="PASS:2,I,83,* BRUP:62"
+      text="MYERS, Kent pass incomplete to HOUSTON, Wyatt (TAELE, Logan)." newcontext="V,2,10,V20">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="HOUSTON, Wyatt"></p_pa>
+    <p_bu vh="H" name="TAELE, Logan"></p_bu>
+   </play>
+   <play hasball="USU" down="2" togo="10" spot="USU20" context="V,2,10,V20" playid="22,3,191" type="R" tokens="RUSH:2,V25, OB: TACK:31"
+      text="MYERS, Kent rush for 5 yards to the USU25, out-of-bounds (TAUTU, Sae)." ob="Y" newcontext="V,3,5,V25">
+    <p_ru vh="V" name="MYERS, Kent" gain="5"></p_ru>
+    <p_tk vh="H" name="TAUTU, Sae"></p_tk>
+   </play>
+   <play hasball="USU" down="3" togo="5" spot="USU25" context="V,3,5,V25" playid="22,4,192" type="P" tokens="PASS:2,I,9,* BRUP:4"
+      text="MYERS, Kent pass incomplete to LEWIS, Rayshad (WARNER, Fred)." newcontext="V,4,5,V25">
+    <p_pa vh="V" qb="MYERS, Kent" result="INC" rcv="LEWIS, Rayshad"></p_pa>
+    <p_bu vh="H" name="WARNER, Fred"></p_bu>
+   </play>
+   <play hasball="USU" down="4" togo="5" spot="USU25" context="V,4,5,V25" playid="22,5,193" type="U" tokens="PUNT:89,H27 RET:7,H32 TACK:31"
+      text="DALTON, Aaron punt 48 yards to the BYU27, HANNEMANN, Mica return 5 yards to the BYU32 (PAINTER, Jentz)." newcontext="H,1,10,H32">
+    <p_pu vh="V" name="DALTON, Aaron" gain="48"></p_pu>
+    <p_pr vh="H" name="HANNEMANN, Mica" gain="5"></p_pr>
+    <p_tk vh="V" name="PAINTER, Jentz"></p_tk>
+   </play>
+   <drivesum plays="3" yards="5" top="0:00" driveindex="22" complete="Y"></drivesum>
+   <drivestart poss="H,H32,05:07" vh="H" spot="H32" clock="05:07" driveindex="23,193"></drivestart>
+   <play hasball="BYU" down="1" togo="10" spot="BYU32" context="H,1,10,H32" playid="23,1,194" clock="05:07" tokens="{DRIVE}:05:07"
+      text="BYU drive start at 05:07." newcontext="H,1,10,H32">
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU32" context="H,1,10,H32" playid="23,2,195" type="R" first="R" tokens="RUSH:22,H45, TACK:3"
+      text="CANADA, Squally rush for 13 yards to the BYU45, 1ST DOWN BYU (ELLISON, M.)." newcontext="H,1,10,H45">
+    <p_ru vh="H" name="CANADA, Squally" gain="13"></p_ru>
+    <p_tk vh="V" name="ELLISON, M."></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="BYU45" context="H,1,10,H45" playid="23,3,196" type="R" tokens="RUSH:22,H47, TACK:98"
+      text="CANADA, Squally rush for 2 yards to the BYU47 (FAIMALO, Edmund)." newcontext="H,2,8,H47">
+    <p_ru vh="H" name="CANADA, Squally" gain="2"></p_ru>
+    <p_tk vh="V" name="FAIMALO, Edmund"></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="8" spot="BYU47" context="H,2,8,H47" playid="23,4,197" type="R" tokens="RUSH:16,V46, TACK:16"
+      text="LANGI, Harvey rush for 7 yards to the USU46 (WILLIAMS, A.)." newcontext="H,3,1,V46">
+    <p_ru vh="H" name="LANGI, Harvey" gain="7"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="1" spot="USU46" context="H,3,1,V46" playid="23,5,198" type="R" first="R" tokens="RUSH:16,V42, TACK:16"
+      text="LANGI, Harvey rush for 4 yards to the USU42, 1ST DOWN BYU (WILLIAMS, A.)." newcontext="H,1,10,V42">
+    <p_ru vh="H" name="LANGI, Harvey" gain="4"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU42" context="H,1,10,V42" playid="23,6,199" type="R" tokens="RUSH:16,V40, TACK:16"
+      text="LANGI, Harvey rush for 2 yards to the USU40 (WILLIAMS, A.)." newcontext="H,2,8,V40">
+    <p_ru vh="H" name="LANGI, Harvey" gain="2"></p_ru>
+    <p_tk vh="V" name="WILLIAMS, A."></p_tk>
+   </play>
+   <play hasball="BYU" down="2" togo="8" spot="USU40" context="H,2,8,V40" playid="23,7,200" type="R" tokens="RUSH:16,V36, TACK:49"
+      text="LANGI, Harvey rush for 4 yards to the USU36 (LARSEN, Derek)." newcontext="H,3,4,V36">
+    <p_ru vh="H" name="LANGI, Harvey" gain="4"></p_ru>
+    <p_tk vh="V" name="LARSEN, Derek"></p_tk>
+   </play>
+   <play hasball="BYU" down="3" togo="4" spot="USU36" context="H,3,4,V36" playid="23,8,201" type="R" tokens="RUSH:16,V36, TACK:70"
+      text="LANGI, Harvey rush for no gain to the USU36 (SEEFELDT, T.)." newcontext="H,4,4,V36">
+    <p_ru vh="H" name="LANGI, Harvey" gain="0"></p_ru>
+    <p_tk vh="V" name="SEEFELDT, T."></p_tk>
+   </play>
+   <play hasball="BYU" down="4" togo="4" spot="USU36" context="H,4,4,V36" playid="23,9,202" type="R" first="R" tokens="RUSH:16,V30, TACK:98"
+      text="LANGI, Harvey rush for 6 yards to the USU30, 1ST DOWN BYU (FAIMALO, Edmund)." newcontext="H,1,10,V30">
+    <p_ru vh="H" name="LANGI, Harvey" gain="6"></p_ru>
+    <p_tk vh="V" name="FAIMALO, Edmund"></p_tk>
+   </play>
+   <play hasball="BYU" down="1" togo="10" spot="USU30" context="H,1,10,V30" playid="23,10,203" type="#" clock="00:00" tokens="HALF: T:00:00"
+      text="End of game, clock 00:00." newcontext="H,1,10,V30">
+   </play>
+   <drivesum plays="8" yards="38" top="0:00" driveindex="23" complete="Y"></drivesum>
+   <score final="Y" V="10" H="28"></score>
+   <endqtr></endqtr>
+   <qtrsummary vh="V" id="USU">
+    <firstdowns no="0" rush="0" pass="0" penalty="0"></firstdowns>
+    <penalties no="3" yds="30"></penalties>
+    <conversions thirdconv="0" thirdatt="2" fourthconv="0" fourthatt="0"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="3" yds="0" gain="6" loss="6" td="0" long="0"></rush>
+    <pass comp="0" att="3" int="0" yds="0" td="0" long="0" sacks="1" sackyds="6"></pass>
+    <punt no="2" yds="97" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="48.5"></punt>
+    <defense tackua="20" tacka="2" tot_tack="22" tflua="2" tfla="0" tflyds="8" sacks="2" sackyds="8"></defense>
+    <fumbles no="1" lost="0"></fumbles>
+   </qtrsummary>
+   <qtrsummary vh="H" id="BYU">
+    <firstdowns no="8" rush="5" pass="0" penalty="3"></firstdowns>
+    <penalties no="1" yds="5"></penalties>
+    <conversions thirdconv="2" thirdatt="5" fourthconv="2" fourthatt="2"></conversions>
+    <fumbles no="1" lost="0"></fumbles>
+    <misc yds="0" top="00:00"></misc>
+    <rush att="20" yds="73" gain="85" loss="12" td="0" long="0"></rush>
+    <pass comp="1" att="1" int="0" yds="5" td="1" long="0" sacks="2" sackyds="8"></pass>
+    <rcv no="1" yds="5" td="1" long="0"></rcv>
+    <ko no="1" yds="64" ob="0" tb="1"></ko>
+    <fg made="0" att="1" long="0" blkd="0"></fg>
+    <pat kickatt="1" kickmade="1"></pat>
+    <defense tackua="3" tacka="0" tot_tack="3" tflua="1" tfla="0" tflyds="6" sacks="1" sackyds="6" brup="3" ff="1"></defense>
+    <pr no="2" yds="12" td="0" long="0"></pr>
+    <fumbles no="1" lost="0"></fumbles>
+    <scoring td="1" patkick="1"></scoring>
+   </qtrsummary>
+  </qtr>
+  <downtogo hasball="H" id="BYU" down="1" togo="10" spot="USU30" context="H,1,10,V30" qtr="4" clock="00:00" vtoh="1" htoh="0"
+       lastplay="End of game, clock 00:00."></downtogo>
+ </plays>
+ <message text=""></message>
+ <dnp vh="V" id="USU">
+  <player name="SMITH, Cade" checkname="SMITH,CADE" uni="0S" class="FR" gp="0" code="0S"></player>
+  <player name="LOVE, Jordan" checkname="LOVE,JORDAN" uni="1L" class="FR" gp="0" code="1L"></player>
+  <player name="WOODWARD, David" checkname="WOODWARD,DAVID" uni="1W" class="FR" gp="0" code="1W"></player>
+  <player name="CONRAD, Hudson" checkname="CONRAD,HUDSON" uni="1C" class="FR" gp="0" code="1C"></player>
+  <player name="OGWU, Kevin" checkname="OGWU,KEVIN" uni="2O" class="JR" gp="0" code="2O"></player>
+  <player name="GUNTHER, B." checkname="GUNTHER,B" uni="3G" class="FR" gp="0" code="3G"></player>
+  <player name="PARKER, Chance" checkname="PARKER,CHANCE" uni="3P" class="FR" gp="0" code="3P"></player>
+  <player name="BROWN, Jay" checkname="BROWN,JAY" uni="3B" class="FR" gp="0" code="3B"></player>
+  <player name="SIMON, Dionte" checkname="SIMON,DIONTE" uni="4S" class="FR" gp="0" code="4S"></player>
+  <player name="CHEN, Andrew" checkname="CHEN,ANDREW" uni="5C" class="JR" gp="0" code="5C"></player>
+  <player name="BOMAN, Travis" checkname="BOMAN,TRAVIS" uni="8B" class="FR" gp="0" code="8B"></player>
+  <player name="TEMPLETON, Jake" checkname="TEMPLETON,JAKE" uni="9T" class="SO" gp="0" code="9T"></player>
+  <player name="ANDERSEN, C." checkname="ANDERSEN,C" uni="10" class="SO" gp="0" code="10"></player>
+  <player name="GAJKOWSKI, B." checkname="GAJKOWSKI,B" uni="15" class="FR" gp="0" code="15"></player>
+  <player name="GILMER, Makiah" checkname="GILMER,MAKIAH" uni="18" class="FR" gp="0" code="18"></player>
+  <player name="MIRANDA, P." checkname="MIRANDA,P" uni="22" class="JR" gp="0" code="22"></player>
+  <player name="ROCQUEMORE, J." checkname="ROCQUEMORE,J" uni="27" class="SO" gp="0" code="27"></player>
+  <player name="WALKER, Jr., M." checkname="WALKER,JR, M" uni="29" class="FR" gp="0" code="29"></player>
+  <player name="LITTLETON, D." checkname="LITTLETON,D" uni="30" class="FR" gp="0" code="30"></player>
+  <player name="MAYS, Devante" checkname="MAYS,DEVANTE" uni="32" class="SR" gp="0" code="32"></player>
+  <player name="MEITZENHEIMER" checkname="MEITZENHEIMER" uni="33" class="FR" gp="0" code="33"></player>
+  <player name="HERVEY, Justen" checkname="HERVEY,JUSTEN" uni="34" class="SO" gp="0" code="34"></player>
+  <player name="GAJKOWSKI, M." checkname="GAJKOWSKI,M" uni="38" class="FR" gp="0" code="38"></player>
+  <player name="MCGUIRE, Connor" checkname="MCGUIRE,CONNOR" uni="39" class="JR" gp="0" code="39"></player>
+  <player name="MURRAY, Troy" checkname="MURRAY,TROY" uni="41" class="FR" gp="0" code="41"></player>
+  <player name="SWENSON, Zach" checkname="SWENSON,ZACH" uni="42" class="FR" gp="0" code="42"></player>
+  <player name="LEE, Logan" checkname="LEE,LOGAN" uni="47" class="FR" gp="0" code="47"></player>
+  <player name="TAYLOR, Sean" checkname="TAYLOR,SEAN" uni="52" class="JR" gp="0" code="52"></player>
+  <player name="HARRIS, Braden" checkname="HARRIS,BRADEN" uni="53" class="FR" gp="0" code="53"></player>
+  <player name="MATHEWS, Dustin" checkname="MATHEWS,DUSTIN" uni="54" class="FR" gp="0" code="54"></player>
+  <player name="UASIKE, Leki" checkname="UASIKE,LEKI" uni="57" class="SR" gp="0" code="57"></player>
+  <player name="ALI'IFUA, D." checkname="ALI'IFUA,D" uni="58" class="FR" gp="0" code="58"></player>
+  <player name="IOANE, Jarom" checkname="IOANE,JAROM" uni="64" class="JR" gp="0" code="64"></player>
+  <player name="FORSYTHE, D." checkname="FORSYTHE,D" uni="68" class="SR" gp="0" code="68"></player>
+  <player name="SMITH, Roderick" checkname="SMITH,RODERICK" uni="69" class="FR" gp="0" code="69"></player>
+  <player name="SHAW, Ty" checkname="SHAW,TY" uni="75" class="FR" gp="0" code="75"></player>
+  <player name="MCMOORE, V." checkname="MCMOORE,V" uni="77" class="FR" gp="0" code="77"></player>
+  <player name="BOYER, Cody" checkname="BOYER,CODY" uni="78" class="SO" gp="0" code="78"></player>
+  <player name="PADA, Brandon" checkname="PADA,BRANDON" uni="79" class="FR" gp="0" code="79"></player>
+  <player name="FOX, Tyler" checkname="FOX,TYLER" uni="80" class="SO" gp="0" code="80"></player>
+  <player name="NATHAN, Jordan" checkname="NATHAN,JORDAN" uni="81" class="FR" gp="0" code="81"></player>
+  <player name="NELSON, Matt" checkname="NELSON,MATT" uni="86" class="SO" gp="0" code="86"></player>
+  <player name="RAYMOND, Dax" checkname="RAYMOND,DAX" uni="87" class="SO" gp="0" code="87"></player>
+  <player name="FATA, Ritisoni" checkname="FATA,RITISONI" uni="90" class="FR" gp="0" code="90"></player>
+  <player name="LEE, Zach" checkname="LEE,ZACH" uni="92" class="FR" gp="0" code="92"></player>
+  <player name="ANDERSEN, Caden" checkname="ANDERSEN,CADEN" uni="94" class="FR" gp="0" code="94"></player>
+  <player name="PITCHER, Jake" checkname="PITCHER,JAKE" uni="97" class="FR" gp="0" code="97"></player>
+ </dnp>
+ <dnp vh="H" id="BYU">
+  <player name="BRENT, Trevor" checkname="BRENT,TREVOR" uni="1J" class="SO" gp="0" code="1J"></player>
+  <player name="DAVIS, Akile" checkname="DAVIS,AKILE" uni="1D" class="SO" gp="0" code="1D"></player>
+  <player name="AMONE, Phillip" checkname="AMONE,PHILLIP" uni="2C" class="SO" gp="0" code="2C"></player>
+  <player name="LEE, Hiva" checkname="LEE,HIVA" uni="2Z" class="" gp="0" code="2Z"></player>
+  <player name="McCHESNEY, Aust" checkname="MCCHESNEY,AUST" uni="2X" class="FR" gp="0" code="2X"></player>
+  <player name="TANNER, Young" checkname="TANNER,YOUNG" uni="2Q" class="SO" gp="0" code="2Q"></player>
+  <player name="NIUMATALOLO, Va" checkname="NIUMATALOLO,VA" uni="3F" class="JR" gp="0" code="3F"></player>
+  <player name="HANSEN, Colby" checkname="HANSEN,COLBY" uni="3A" class="FR" gp="0" code="3A"></player>
+  <player name="HINDS, Troy" checkname="HINDS,TROY" uni="4E" class="SO" gp="0" code="4E"></player>
+  <player name="PILIMAI, Alema" checkname="PILIMAI,ALEMA" uni="4F" class="FR" gp="0" code="4F"></player>
+  <player name="RICHARDSON, Cre" checkname="RICHARDSON,CRE" uni="4G" class="JR" gp="0" code="4G"></player>
+  <player name="HOGE, Beau" checkname="HOGE,BEAU" uni="4Q" class="SO" gp="0" code="4Q"></player>
+  <player name="CHAMBERS, Austi" checkname="CHAMBERS,AUSTI" uni="5I" class="FR" gp="0" code="5I"></player>
+  <player name="LESATELE, Lene" checkname="LESATELE,LENE" uni="5B" class="SO" gp="0" code="5B"></player>
+  <player name="DYE, Trey" checkname="DYE,TREY" uni="6" class="JR" gp="0" code="6"></player>
+  <player name="TUILOMA, Travis" checkname="TUILOMA,TRAVIS" uni="9X" class="SR" gp="0" code="9X"></player>
+  <player name="SIMON, Micah" checkname="SIMON,MICAH" uni="19" class="SO" gp="0" code="19"></player>
+  <player name="SHUMWAY, Rickey" checkname="SHUMWAY,RICKEY" uni="27" class="FR" gp="0" code="27"></player>
+  <player name="POWELL, Riggs" checkname="POWELL,RIGGS" uni="34" class="" gp="0" code="34"></player>
+  <player name="JONES, Grant" checkname="JONES,GRANT" uni="37" class="JR" gp="0" code="37"></player>
+  <player name="OLDROYD, Jake" checkname="OLDROYD,JAKE" uni="39" class="FR" gp="0" code="39"></player>
+  <player name="FICKLIN, Quin" checkname="FICKLIN,QUIN" uni="44" class="SO" gp="0" code="44"></player>
+  <player name="BALDWIN, Sam" checkname="BALDWIN,SAM" uni="45" class="FR" gp="0" code="45"></player>
+  <player name="HARRIS, Mitch" checkname="HARRIS,MITCH" uni="52" class="FR" gp="0" code="52"></player>
+  <player name="TALIAULI, Merri" checkname="TALIAULI,MERRI" uni="54" class="SO" gp="0" code="54"></player>
+  <player name="PULSIPHER, Addi" checkname="PULSIPHER,ADDI" uni="72" class="FR" gp="0" code="72"></player>
+  <player name="LAPUAHO, Ului" checkname="LAPUAHO,ULUI" uni="73" class="JR" gp="0" code="73"></player>
+  <player name="LONGSON, Kieffe" checkname="LONGSON,KIEFFE" uni="74" class="FR" gp="0" code="74"></player>
+  <player name="HERRING, Chando" checkname="HERRING,CHANDO" uni="77" class="FR" gp="0" code="77"></player>
+  <player name="TANNER, Beau" checkname="TANNER,BEAU" uni="80" class="SO" gp="0" code="80"></player>
+  <player name="MIKKELSEN, Andr" checkname="MIKKELSEN,ANDR" uni="83" class="JR" gp="0" code="83"></player>
+  <player name="MAXWELL, Mauric" checkname="MAXWELL,MAURIC" uni="97" class="" gp="0" code="97"></player>
+ </dnp>
+ <longplays thresh="70">
+ </longplays>
+</fbgame>
