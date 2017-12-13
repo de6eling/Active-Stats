@@ -17,6 +17,7 @@ use App\Player_has_Stat;
 use App\Team_has_Stat;
 use App\Team_has_Game;
 use App\Coach;
+use App\Season;
 use DateTime;
 
 class uploadXML extends Command
@@ -26,7 +27,7 @@ class uploadXML extends Command
      *
      * @var string
      */
-    protected $signature = 'uploadXML {file} {qtr} {v team hc first name} {v team hc last name} {h team hc first name} {h team hc last name} {v won game} {h won game}';
+    protected $signature = 'uploadXML {file} {seasonYear} {qtr} {v team hc first name} {v team hc last name} {h team hc first name} {h team hc last name} {v won game} {h won game}';
 
     /**
      * The consoluse App\User;
@@ -67,6 +68,21 @@ ew command instance.
             }
           }
 
+          $season = Season::firstOrNew([
+            "Year" => $this->argument('seasonYear')
+          ]);
+          $seasonId =0;
+          if ($season->save()) {
+            if ($season->id == null) {
+              $seasonId = $season->idSeason;
+              echo "Season found!\n";
+            }
+            else {
+              $seasonId = $season->id;
+              echo "Season added!\n";
+            }
+          }
+
           // Set the game start and end date and time //
           $formattedStart = date('Y-m-d h:i:s', strtotime($game['date'].' '.$game['start']));
           $formattedEnd = date('Y-m-d h:i:s', strtotime($game['date'].' '.$game['end']));
@@ -97,7 +113,8 @@ ew command instance.
               "Venue_idVenue" => $venueId,
               "neutralSite" => $neutralGame,
               "nightGame" => $nightGame,
-              "postSeason" => $postSeasonGame
+              "postSeason" => $postSeasonGame,
+              "Season_idSeason" => $seasonId
             ]
           );
           $newGameId = 0;
@@ -115,10 +132,17 @@ ew command instance.
 
           // Iterate through teams in the XML file //
           foreach($xml->team as $team) {
+            $teamName = "";
+            if ($team['name'] == "BYU Cougars") {
+              $teamName = "BYU";
+            }
+            else {
+              $teamName = $team['name'];
+            }
             // Add a team //
             $addTeam1 = Team::firstOrNew(
               [
-                "Title" => $team['name'],
+                "Title" => $teamName,
                 "teamid" => $team['id']
               ]
             );
@@ -277,6 +301,9 @@ ew command instance.
                 // Check if first and last name exists //
                   if (sizeof(explode(',', $fullName)) > 1) {
                     $firstName = explode(',', $fullName)[1];
+                    if (sizeof(explode(' ', $firstName)) > 1) {
+                      $firstName = explode(' ', $firstName)[1];
+                    }
                     $lastName = explode(',', $fullName)[0];
                   }
                   else {
